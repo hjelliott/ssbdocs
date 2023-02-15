@@ -8,9 +8,9 @@ layout: home
 This is the home page for the **Sailing Scoreboard documentation.**
 
 
-##Getting started
+## Getting started
 
-For Recorders
+[For Recorders](For Recorders.html#for-recorders)
 
 For Scorers
 
@@ -18,7 +18,6 @@ For Administrators
 
 For Developers
 
-##Advanced Topics
+## Advanced Topics
 
 REST Interface
-
