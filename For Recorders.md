@@ -1,4 +1,4 @@
-[---
+---
 title: For Recorders
 layout: home
 ---
