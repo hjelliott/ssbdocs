@@ -9,7 +9,7 @@ This page contains information for recorders. A recorder has basic access to the
 
 ## Key Concepts]()
 * [Accessing the System and Logging in](Logging in.html#Logging-in)
-* Navigating the Class Dashboard
+* Navigating the Class Dashboard and more
 * Adding a new race
 * Entering Finish times, Finish Places and Penalty Scores
 
