@@ -1,6 +1,7 @@
 ---
 title: Loggin in
 layout: home
+nav_order: 2
 ---
 
 # Accessing the System and Logging in
