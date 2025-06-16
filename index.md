@@ -21,4 +21,4 @@ For Developers
 
 ## Advanced Topics
 
-REST Interface
+[REST Interface](rest-interface.html)
