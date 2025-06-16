@@ -4,11 +4,6 @@ nav_order: 3
 title: REST Interface
 ---
 
-1. TOC
-
-{:toc}
-
-
 
 ## Overview
 
