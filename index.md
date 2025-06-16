@@ -13,7 +13,7 @@ This is the home page for the **Sailing Scoreboard documentation.**
 
 [For Recorders](For Recorders.html#for-recorders)
 
-[For Scorers](for-scorers
+[For Scorers](for-scorers.html#for-recorders)
 
 For Administrators
 
