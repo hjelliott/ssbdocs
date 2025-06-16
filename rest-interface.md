@@ -4,16 +4,22 @@ nav_order: 3
 title: REST Interface
 ---
 
-## Contents
+<details open markdown="block">
 
-- [1 Overview](#Overview)
-- [2 Available Resources and Parameters](#Available_Resources_and_Parameters)
-- [2.1 EVENTS](#EVENTS)
-- [2.2 CLASSES](#CLASSES)
-- [2.3 ENTRIES](#ENTRIES)
-- [2.4 POINTSCORES](#POINTSCORES)
-- [2.5 RACES](#RACES)
-- [2.6 RACERESULTS](#RACERESULTS)
+  <summary>
+  
+    Table of contents
+    
+  </summary>
+  
+  {: .text-delta }
+  
+1. TOC
+
+{:toc}
+
+</details>
+
 
 ## Overview
 
