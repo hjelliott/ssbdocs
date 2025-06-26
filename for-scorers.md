@@ -3,6 +3,9 @@ layout: home
 nav_order: 3
 title: For Scorers
 ---
+***Contents***
+
+[toc]
 
 This page contains information for Scorers. A Scorer has the same rights and privileges as a Recorder, plus more. For full details on the access rights and privileges see[User Roles](User_Roles.html)for more details.
 
@@ -14,7 +17,7 @@ This page contains information for Scorers. A Scorer has the same rights and pri
 - [Creating a sub class of another class](Sub_Classes.html)
 - [Add an Entrant to a Class](Add_Entry.html)
 - [Adding a new race](Create_Race.html)
-- [Entering Finish times, Finish Places and Penalty Scores](Entering_Results.html)
+- [Entering Finish times, Finish Places and Penalty Scores](entering-results.html)
 - [Print Results](print-results.html)
 - [Print Sign On/Off Sheet](Print_Sign_On/Off_Sheet.html)
 
