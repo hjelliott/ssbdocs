@@ -36,11 +36,11 @@ Using the steps above, access the Race page for the required Class and Race. The
 
 The picture shows that 3 boats have finished. AUS26 is in 3rd place. AUS2, AUS5 and AUS22 have not yet finished. If the next boat to finish is AUS22, click the Tick.png in the Fin column.
 
-![Click-to-finish-place.png](images/Click-to-finish-place.png)
+![Click-to-finish-place.png](images/click-to-finish-place.png)
 
 The system will finish AUS22 in 4th place and move him to the Finish Times and Places table.
 
-![Click-to-finish-place-2.png](images/Click-to-finish-place-2.png)
+![Click-to-finish-place-2.png](images/click-to-finish-place-2.png)
 
 You could use this method to finish the remainder of the class.
 
@@ -49,8 +49,8 @@ You could use this method to finish the remainder of the class.
 Quite often the Race Committee will correct their results or you may have made an error in entering them. There are 3 methods to correct errors.
 
 Use Move Up/Down Arrows ![Arrow_up.png](images/Arrow_up.png) ![Arrow_down.png](images/Arrow_down.png)
-Reset Race results ![Reset-race-button.png](images/Reset-race-button.png)
-Use Finish Sheet Edit ![Finish-sheet-edit-button.png](images/Finish-sheet-edit-button.png)
+Reset Race results ![Reset-race-button.png](images/reset-race-button.png)
+Use Finish Sheet Edit ![Finish-sheet-edit-button.png](images/finish-sheet-edit-button.png)
 
 **Move Up/Down Arrows** ![Arrow_up.png](images/Arrow_up.png) ![Arrow_down.png](images/arrow_down.png)
 
@@ -62,15 +62,15 @@ These icons allow you to move a boat one place up or down. When you click one of
 
 Using the steps above, access the Race page for the required Class and Race. The picture below shows a sample IRC Class for race 11.
 
-![Finish-by-time.png](images/Finish-by-time.png)
+![Finish-by-time.png](images/finish-by-time.png)
 
 The picture shows that no boats have finished. For each finisher, select the Finish Code (FIN = normal finish), enter the finish time by overwriting the hhmmss then click the Tick.png in the Fin column.
 
-![Click-to-finish-time.png](images/Click-to-finish-time.png)
+![Click-to-finish-time.png](images/click-to-finish-time.png)
 
 The system will finish Kata Rocks using the entered time and his TCF, then move him to the Finish Times and Places table. Entering finish times for multiple boats is also easy. For each boat, select the Finish Code, enter the finish time by overwriting the hhmmss then click the SAVE button below.
 
-![Click-to-finish-time-2.png](images/Click-to-finish-time-2.png)
+![Click-to-finish-time-2.png](images/click-to-finish-time-2.png)
 
 You could use this method to finish the remainder of the class.
 
@@ -80,28 +80,28 @@ Quite often the Race Committee will correct their results or you may have made a
 
 Use ![Pencil.png](images/Pencil.png) to open the RaceResult screen. Edit the finish time and click Save.
 Use ![Cross.png](images/Cross.png) to delete the finish result and re-enter it using the methods above.
-Use Finish Sheet Edit ![Finish-sheet-edit-button.png](images/Finish-sheet-edit-button.png)
+Use Finish Sheet Edit ![Finish-sheet-edit-button.png](images/finish-sheet-edit-button.png)
 After changing a finish time, always recalculate the race results using the Reset-race-button.png
 
 ### DNF, DNS, DNC and OCS
 
 The Race Committee will often score a boat DNF (Did Not Finish), DNS (Did Not Start), DNC (Did Not Compete) or OCS (On Course Side at Start) where the boat has not started or completed the course. To enter these scores quickly, click the required Score to the right of the Tick.png icon.
 
-![Click-to-finish-place-3.png](images/Click-to-finish-place-3.png)
+![Click-to-finish-place-3.png](images/click-to-finish-place-3.png)
 
 The system will score AUS5 DNF and move him to the Finish Times and Places table.
 
 Note that there are many other special scores that could be used. These are available in the Select List to the left of the ![Tick.png](images/Tick.png)
 
-![](images/Click-to-finish-place-4.png)
+![](images/click-to-finish-place-4.png)
 
 
 
-**Reset Race Results**![images/Reset Race results Reset-race-button.png](images/Reset-race-button.png)
+**Reset Race Results**![images/Reset Race results Reset-race-button.png](images/reset-race-button.png)
 
 This function will delete all race results to date and move all boats back to the Not Yet Finished table.
 
-**Finish Sheet Edit**![images/Finish Sheet Edit Finish-sheet-edit-button.png](images/Finish-sheet-edit-button.png)
+**Finish Sheet Edit**![images/Finish Sheet Edit Finish-sheet-edit-button.png](images/finish-sheet-edit-button.png)
 
 This function will open a worksheet which allows you to manually adjust any or all of the results.
 
@@ -136,8 +136,8 @@ For classes with result type of PLACE you only need to click the FIN button. The
 **The Finish Sheet**
 To access the Finish Sheet, click the Finish Sheet button on the Class Dashboard. 
 
-![Finish-sheet-1.png](images/Finish-sheet-1.png)
+![Finish-sheet-1.png](images/finish-sheet-1.png)
 
 The system will determine the unfinished boats from the last race of each class and display them in a single screen. You can change the sort order by clicking on the table column headers. You can change which classes are displayed by clicking the Filter Classes button. 
 
-![Finish-sheet-2.png.](images/Finish-sheet-2.png)
+![Finish-sheet-2.png.](images/finish-sheet-2.png)
