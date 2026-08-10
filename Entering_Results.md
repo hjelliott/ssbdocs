@@ -32,7 +32,7 @@ Boats Not Yet Finished - This is a table of the boats which have not yet finishe
 
 Using the steps above, access the Race page for the required Class and Race. The picture below shows a sample Finn Class for race 9.
 
-![](images/Finish-by-place.png)
+![](images/finish-by-place.png)
 
 The picture shows that 3 boats have finished. AUS26 is in 3rd place. AUS2, AUS5 and AUS22 have not yet finished. If the next boat to finish is AUS22, click the Tick.png in the Fin column.
 
