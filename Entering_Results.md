@@ -1,3 +1,8 @@
+---
+layout: home
+nav_order: 1
+title: Entering Results
+---
 ## Overview
 Entering results (finish times or finish places) is dependent on the Results Type for the Class. If the Results Type is "Place" the system only allows the entry of a place (1, 2, 3, etc). If the Results Type is Time, the system allows the entry of finish times only.
 
