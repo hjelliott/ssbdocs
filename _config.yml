@@ -10,3 +10,10 @@ baseurl: /docs
 
 aux_links:
   Sailing Scoreboard: https://www.sailingscoreboard.com/workbench/
+
+# Repo files that are not part of the published site
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
