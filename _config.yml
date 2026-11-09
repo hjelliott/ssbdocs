@@ -12,8 +12,15 @@ aux_links:
   Sailing Scoreboard: https://www.sailingscoreboard.com/workbench/
 
 # Repo files that are not part of the published site
+# (setting `exclude` replaces Jekyll's defaults, so they are repeated here: without
+# vendor/ the build tries to read the bundled gems and fails)
 exclude:
   - README.md
   - LICENSE
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
