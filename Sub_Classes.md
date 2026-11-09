@@ -52,12 +52,19 @@ The same boat can then appear in both pointscores, with a handicap result in the
 2. Create the subclass as a new class. In the **Subclass of** field, choose the parent class from the drop-down. Leave **Subclass Where clause** empty. Set the other properties of the subclass:
    - **Results Type** (*Time* or *Place*, see above).
    - **Scoring System** and **Discards**. These belong to the subclass and don't have to match the parent's.
-3. Open the subclass's **Entries** screen. It has an **Add from Parent Class** button. Click it. A screen lists the entries in the parent class that are not yet in this class. Select the boats you want and click **Save**.
-4. [Create the races](Create_Race.html) in the subclass, one for each race the subclass will score.
 
-<!-- SCREENSHOT 1: class form showing Subclass of drop-down, Subclass Where clause (empty) and Results Type -->
-<!-- SCREENSHOT 2: subclass Entries screen showing the Add from Parent Class button -->
-<!-- SCREENSHOT 3: the Add from Parent Class selection screen -->
+   ![SubclassSetup.png](images/SubclassSetup.png)
+   *The Club Championship class: a Place class that is a subclass of the Club Pointscore, with the Where clause empty.*
+
+3. Open the subclass's **Entries** screen. It has an **Add from Parent Class** button. Click it.
+
+   ![SubclassAddEntries.png](images/SubclassAddEntries.png)
+
+   A screen lists the entries in the parent class that are not yet in this class. Select the boats you want and click **Save**.
+
+   ![SubclassAddEntriesFromParent.png](images/SubclassAddEntriesFromParent.png)
+
+4. [Create the races](Create_Race.html) in the subclass, one for each race the subclass will score.
 
 Adding from the parent makes a copy of each entry, linked to the original. The copy is made once. If you later correct a boat's details in the parent class, correct them in the subclass too.
 
@@ -68,8 +75,8 @@ Adding from the parent makes a copy of each entry, linked to the original. The c
 3. In the **Select Race** dialog, choose the parent race to take the results from, and click **Load Results**. The dialog lists the parent's published races and picks the first one on the same date as the subclass race. The race numbers don't have to match, so a championship's Race 3 can be taken from the season's Race 11.
 4. The system copies the results of the boats that are in the subclass and scores them again among themselves. You return to the race page with the results in place.
 
-<!-- SCREENSHOT 4: subclass race edit page showing the Load Parent Results button -->
-<!-- SCREENSHOT 5: the Select Race dialog -->
+![SubclassLoadParentResults.png](images/SubclassLoadParentResults.png)
+*Loading Race 3 of the Club Championship from Race 5 of the Club Pointscore. The **Load Parent Results** button is on the race page, and it opens the **Select Race** dialog.*
 
 Things to know when loading:
 
@@ -102,7 +109,8 @@ Use it when you want a list of some of the parent's boats, in the parent's order
 
 A filter subclass has no entries or races of its own, so there is nothing to add with **Add from Parent Class** and there is no **Load Parent Results** button. Boats appear and disappear from it as they are added to and removed from the parent.
 
-<!-- SCREENSHOT 6: class form with a Subclass Where clause filled in -->
+![SubclassWhere.png](images/SubclassWhere.png)
+*A filter subclass: the Australian Laser class, with a Where clause that picks the boats whose Country is AUS.*
 
 ### Writing the Where clause
 
