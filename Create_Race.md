@@ -85,4 +85,4 @@ The system will add default values for most fields. Enter the correct values for
 
 -----
 
-Quick Links: [Recorders Home](for-recorders.html "For Recorders") [Scorers Home](for-scorers.html "For Scorers")
+Quick Links: [Recorders Home](For_Recorders.html "For Recorders") [Scorers Home](For_Scorers.html "For Scorers")

@@ -28,11 +28,11 @@ Creates an event wide entry list for printing.
 
 ### Finish Sheet
 
-Accesses the event wide finish sheet function. See [Entering Results](entering-results.html "Entering Results") For more details.
+Accesses the event wide finish sheet function. See [Entering Results](Entering_Results.html "Entering Results") For more details.
 
 ### Results Scratch Pad
 
-Accesses the event wide results scratch sheet pad function. See [Entering Results](entering-results.html "Entering Results") For more details.
+Accesses the event wide results scratch sheet pad function. See [Entering Results](Entering_Results.html "Entering Results") For more details.
 
 ### Protests
 
@@ -115,4 +115,4 @@ The icons to the left of the class name have the following functions:
 -----
 
 Quick Links:
-[Recorders Home Page](for-recorders.html "For Recorders") [Scorers Home Page](for-scorers.html "For Scorers")
+[Recorders Home Page](For_Recorders.html "For Recorders") [Scorers Home Page](For_Scorers.html "For Scorers")

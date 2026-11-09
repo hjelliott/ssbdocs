@@ -11,9 +11,9 @@ This is the home page for the **Sailing Scoreboard documentation.**
 
 ## Getting started
 
-[For Recorders](For Recorders.html#for-recorders)
+[For Recorders](For_Recorders.html)
 
-[For Scorers](for-scorers.html#for-recorders)
+[For Scorers](For_Scorers.html)
 
 For Administrators
 
@@ -23,4 +23,5 @@ For Developers
 
 
 [Handicapping and Scoring Systems](handicaps-and-scoring.html)
-[REST Interface](rest-interface.html)
+
+[REST Interface](Rest_Interface.html)

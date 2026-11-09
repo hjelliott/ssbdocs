@@ -59,7 +59,7 @@ Used for on site scorers
 - Set status as Planning
 - Set Scheduled Start Times from daily program
 - Might need to estimate start time for multiple race classes
-- [Print Sign On/Off Sheet](Print_Sign_On/Off_Sheet.html) and set up Sign On/Off area for competitors
+- [Print Sign On/Off Sheet](Print_Sign_On-_Off_Sheet.html) and set up Sign On/Off area for competitors
 - [Print Protest Times](Print_Protest_Times.html) sheet
 - [Print Scoring Error Correction Requests](Handling_Scoring_Errors.html)
 

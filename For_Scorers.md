@@ -17,14 +17,14 @@ This page contains information for Scorers. A Scorer has the same rights and pri
 - [Creating a sub class of another class](Sub_Classes.html)
 - [Add an Entrant to a Class](Add_Entry.html)
 - [Adding a new race](Create_Race.html)
-- [Entering Finish times, Finish Places and Penalty Scores](entering-results.html)
-- [Print Results](print-results.html)
-- [Print Sign On/Off Sheet](Print_Sign_On/Off_Sheet.html)
+- [Entering Finish times, Finish Places and Penalty Scores](Entering_Results.html)
+- [Print Results](Print_Results.html)
+- [Print Sign On/Off Sheet](Print_Sign_On-_Off_Sheet.html)
 
 ## Checklists
 
-- [Start of Regatta](scorer_checklists.html)
-- [Start of Day](scorer_checklists.html)
-- [During Racing](scorer_checklists.html)
-- [End of Day](scorer_checklists.html)
-- [End of Regatta](scorer_checklists.html)
+- [Start of Regatta](Scorer_Checklists.html)
+- [Start of Day](Scorer_Checklists.html)
+- [During Racing](Scorer_Checklists.html)
+- [End of Day](Scorer_Checklists.html)
+- [End of Regatta](Scorer_Checklists.html)

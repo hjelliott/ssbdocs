@@ -14,4 +14,4 @@ To print the Sign On/Off sheet for a class:
 
 -----
 
-Quick Links: [Recorders Home Page](for-recorders.html "For Recorders") [Scorers Home Page](for-scorers.html "For Scorers")
+Quick Links: [Recorders Home Page](For_Recorders.html "For Recorders") [Scorers Home Page](For_Scorers.html "For Scorers")
