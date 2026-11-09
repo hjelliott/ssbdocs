@@ -52,7 +52,7 @@ Use Move Up/Down Arrows ![Arrow_up.png](images/Arrow_up.png) ![Arrow_down.png](i
 Reset Race results ![Reset-race-button.png](images/reset-race-button.png)
 Use Finish Sheet Edit ![Finish-sheet-edit-button.png](images/finish-sheet-edit-button.png)
 
-**Move Up/Down Arrows** ![Arrow_up.png](images/Arrow_up.png) ![Arrow_down.png](images/arrow_down.png)
+**Move Up/Down Arrows** ![Arrow_up.png](images/Arrow_up.png) ![Arrow_down.png](images/Arrow_down.png)
 
 These icons allow you to move a boat one place up or down. When you click one of the arrows the boat is moved in the required direction and the adjacent boats are re-ordered and rescored.
 

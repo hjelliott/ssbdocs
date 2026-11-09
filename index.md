@@ -21,4 +21,6 @@ For Developers
 
 ## Advanced Topics
 
+
+[Handicapping and Scoring Systems](handicaps-and-scoring.html)
 [REST Interface](rest-interface.html)
