@@ -3,7 +3,10 @@ logo: "/images/ssblogo-h.png"
 description: User documentation for Sailing Scoreboard
 theme: just-the-docs
 
-url: https://hjelliott.github.io/ssbdocs
+# Served from the production web server at https://sailingscoreboard.com/docs/
+# (built by .github/workflows/publish-site.yml, pulled by the server from the `site` branch)
+url: https://sailingscoreboard.com
+baseurl: /docs
 
 aux_links:
   Sailing Scoreboard: https://www.sailingscoreboard.com/workbench/
