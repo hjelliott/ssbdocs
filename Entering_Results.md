@@ -62,7 +62,7 @@ These icons allow you to move a boat one place up or down. When you click one of
 
 Using the steps above, access the Race page for the required Class and Race. The picture below shows a sample IRC Class for race 11.
 
-![Finish-by-time.png](images/finish-by-time.png)
+![Finish-by-time.png](images/Finish-by-time.png)
 
 The picture shows that no boats have finished. For each finisher, select the Finish Code (FIN = normal finish), enter the finish time by overwriting the hhmmss then click the Tick.png in the Fin column.
 
