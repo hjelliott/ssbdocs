@@ -94,6 +94,7 @@ For every system, a boat that finishes scores its finishing place. Place is by c
 | **ACYC A9** | Boats that finished + 2 | The ACYC modified A9 |
 | **Kiteboard PKC11** | Boats entered + 1 | The winner of a race scores **0.7** points instead of 1. Other places score as normal |
 | **Appendix B8** | Boats entered + 1 | Race scoring is as A4. The series tie-break is modified (see below) |
+| **Sailing Champions League (SCL)** | Teams paired in that race + 1 | Team racing in supplied boats. Scored by its own rules, set out in [Sailing Champions League scoring](#sailing-champions-league-scoring) below |
 
 **Time limit expired (TLE).** A boat with the TLE code scores finishers + 1, whichever scoring system the class uses. This follows the sailing instructions, not the scoring system.
 
@@ -117,3 +118,24 @@ For every system, a boat that finishes scores its finishing place. Place is by c
 
 ---
 
+## Sailing Champions League scoring
+
+Sailing Champions League (SCL) is a team event sailed in a small fleet of identical boats. A pairing list says which team sails which boat in each short race. The Race Official records only the order in which the boat numbers finish, and the system turns that into team places. SCL classes use their own scoring rules, which differ from the systems above. They are set up and managed from the SCL screens, not from the ordinary class and race screens, and their results are entered in the SCL Scorer rather than on the finish sheet. The Results website, the REST interface and the printed reports show the SCL qualifying table in the usual layout.
+
+**Race points.** A team scores its finishing place. A boat with a code (DNF, DNS, DSQ, OCS, RET or DNC) does not use up a place. Instead it scores **the number of teams paired in that race, plus one**. For example, if boats 3, 5 (OCS), 1 and 2 are recorded in that order in a race with four teams, boat 3 is 1st, boat 1 is 2nd, boat 2 is 3rd, and boat 5 scores 5 points.
+
+**Qualifying series.** Only complete races count. Partial and abandoned races never do. A race that is abandoned can be sailed again as a *re-sail* (for example race 12R), which counts in its place.
+
+**Teams on different numbers of races.** While racing is in progress some teams will have sailed more races than others. Each team counts only as many races as the team with the fewest (among teams that have sailed at least one). A team's most recent extra races are left out and shown in brackets on the Board. The Results website shows every race the team has sailed and the counted total. When every team has sailed the same number of races, nothing is left out.
+
+**Tied totals.** Lowest total wins. Ties are broken as in RRS A8, using only the races that count:
+1. Compare the teams' scores in order, from best to worst. The lower score at the first difference wins.
+2. If still tied, compare the scores in the last race, then the race before it, and so on.
+
+Teams that are still equal share the place, and the next place after a tie skips the shared places (for example 1, 1, 3).
+
+**Redress and penalties.** An administrator can give a team stated points for a race (redress, shown as RDG) or add penalty points. Both carry a comment, are marked on the displays, and stay in place if the Scorer later corrects the race.
+
+**Finals.** After qualifying, an administrator closes the qualifying series. The leading teams (four by default) go through to a final series. The qualifying leader starts with a head start of one race win (the default). The winner of each final race gets one win, and the first team to reach the number of wins required (two by default) wins the event. The other finalists are then placed by their finish in the deciding final race, followed by the teams that did not reach the finals, in qualifying order. If teams are tied across the last finalist place, or for the lead, the administrator must decide the order before the finals can start. No further final races can be scored once a winner is decided.
+
+**Sub-classes.** A sub-class such as Women is ranked from the main class's results for the teams in it. Boats are not re-placed within the races.
