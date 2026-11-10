@@ -49,7 +49,7 @@ The handicap changes as the series goes on. Each race is corrected with the boat
 
 Race 1 uses the entry's starting handicap, which is saved as the boat's *base* TCF. From race 2 on, each race picks up the handicap calculated after the previous race.
 
-If you correct a boat's TCF on the **Edit Result** screen for a race, that race keeps the value you typed (it is not replaced by the starting or previously calculated handicap). Clearing the field, or entering 0, goes back to the calculated one.
+If you correct a boat's TCF on the **Edit Result** screen for a race, that race keeps the value you typed (it is not replaced by the starting or previously calculated handicap). That includes 0 (or a negative number), which is valid for Time Subtraction. Clearing the field goes back to the entry's TCF, or the calculated one for dynamic handicaps.
 
 #### IRC National Handicapping (`ircnhc`)
 
