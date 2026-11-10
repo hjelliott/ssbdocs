@@ -15,6 +15,12 @@ This is the home page for the **Sailing Scoreboard documentation.**
 
 [For Scorers](For_Scorers.html)
 
+[SCL for Administrators](SCL_for_Admins.html) (Sailing Champions League)
+
+[SCL Scorer app](SCL_Scorer.html)
+
+[SCL Display and Board](SCL_Display_and_Board.html)
+
 For Administrators
 
 For Developers
