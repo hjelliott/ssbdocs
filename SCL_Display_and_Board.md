@@ -39,11 +39,10 @@ Add them to the address after a question mark, for example `/scl/display/90001?n
 Open `https://sailingscoreboard.com/scl/board/` for the list of published events and their classes, or go straight to a class: `https://sailingscoreboard.com/scl/board/<class number>`. It is made for phones and works on any screen.
 
 - **Standings:** the leaderboard. Tap a team to see its race-by-race scores and its sailors (names and roles only).
-- **Races:** every race, newest first, with the finishing order. Tap a race to open or close it.
-- **Next:** the race being scored and the next races with each boat's team.
+- **Races:** at the top the **next races** (up to six) with each boat's team, then the race being scored now, then every race sailed, newest first, with the finishing order. Tap a race to open or close it.
 - **Finals:** appears once the qualifying series is completed.
 
-Until the qualifying series is completed the standings are labelled **Provisional**: every race counts, so teams that have sailed more races have more points. Afterwards each team counts the same number of races, and the races left out are shown in brackets on the Board (the Display shows only the totals).
+Until the qualifying series is completed the standings are labelled **Provisional**: every race counts, so teams that have sailed more races have more points. Afterwards each team counts the same number of races, and the scores of the races left out are shown faded on the Board (the Display shows only the totals).
 
 Every page has its own address, so you can send a link to a class, a tab or a team. The Board checks for new results every ten seconds while the page is open.
 
