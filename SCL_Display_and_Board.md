@@ -39,7 +39,7 @@ Add them to the address after a question mark, for example `/scl/display/90001?n
 Open `https://sailingscoreboard.com/scl/board/` for the list of published events and their classes, or go straight to a class: `https://sailingscoreboard.com/scl/board/<class number>`. It is made for phones and works on any screen.
 
 - **Standings:** the leaderboard. Tap a team to see its race-by-race scores and its sailors (names and roles only).
-- **Races:** at the top the **next races** (up to six) with each boat's team, then the race being scored now, then every race sailed, newest first, with the finishing order. Tap a race to open or close it.
+- **Races:** the series reads upwards, so the numbers run 1, 2, 3... up the page: at the top the **next races** (up to six, marked *Pending*) with each boat's team, the furthest first, then the race being scored now, then every race sailed (marked *Completed*), newest first, with the finishing order. Tap a race to open or close it.
 - **Finals:** appears once the qualifying series is completed.
 
 Until the qualifying series is completed the standings are labelled **Provisional**: every race counts, so teams that have sailed more races have more points. Afterwards each team counts the same number of races, and the scores of the races left out are shown faded on the Board (the Display shows only the totals).
