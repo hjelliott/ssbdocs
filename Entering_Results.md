@@ -3,7 +3,12 @@ layout: home
 nav_order: 1
 title: Entering Results
 ---
+[TOC]
+
+
+
 ## Overview
+
 Entering results (finish times or finish places) is dependent on the Results Type for the Class. If the Results Type is "Place" the system only allows the entry of a place (1, 2, 3, etc). If the Results Type is Time, the system allows the entry of finish times only.
 
 In both cases the system has multiple ways in which the results can be entered. The most commonly used method is the One Click Finish. Using this method the minimum number of keystrokes is required. For a Class with a Results Type of Place, only a single click is required. For a Class with a Results Type of Time you are required to enter the actual finish time and then a single click. In the case of Time, the Corrected Time is automatically calculated and the correct finishing order is determined by the system. Points are automatically applied.
@@ -74,7 +79,7 @@ The system will finish Kata Rocks using the entered time and his TCF, then move 
 
 You could use this method to finish the remainder of the class.
 
-#### Finishing a boat at the current time
+### Finishing a boat at the current time
 
 If a boat has just finished and you want to record the time of the click, leave the box showing hhmmss and click the Tick.png in the Fin column. The system uses the current time at the event as the finish time. This only works with the Tick.png: the SAVE button ignores any box still showing hhmmss.
 
