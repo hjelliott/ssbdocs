@@ -10,7 +10,8 @@ The Scorer app is how race officials record Sailing Champions League results on 
 
 ***Contents***
 
-[toc]
+* TOC
+{:toc}
 
 ## Install it
 

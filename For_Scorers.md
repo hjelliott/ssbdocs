@@ -5,7 +5,8 @@ title: For Scorers
 ---
 ***Contents***
 
-[toc]
+* TOC
+{:toc}
 
 This page contains information for Scorers. A Scorer has the same rights and privileges as a Recorder, plus more. For full details on the access rights and privileges see[User Roles](User_Roles.html)for more details.
 

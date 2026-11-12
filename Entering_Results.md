@@ -3,7 +3,8 @@ layout: home
 nav_order: 1
 title: Entering Results
 ---
-[TOC]
+* TOC
+{:toc}
 
 
 

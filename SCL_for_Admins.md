@@ -10,7 +10,8 @@ This page is for the people who set up and run a Sailing Champions League (SCL) 
 
 ***Contents***
 
-[toc]
+* TOC
+{:toc}
 
 ## How an SCL event works
 

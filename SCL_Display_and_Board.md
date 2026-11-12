@@ -10,7 +10,8 @@ Two public pages show a Sailing Champions League class live. They need no login 
 
 ***Contents***
 
-[toc]
+* TOC
+{:toc}
 
 ## The Display (big screen)
 
