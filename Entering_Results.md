@@ -74,6 +74,16 @@ The system will finish Kata Rocks using the entered time and his TCF, then move 
 
 You could use this method to finish the remainder of the class.
 
+#### Finishing a boat at the current time
+
+If a boat has just finished and you want to record the time of the click, leave the box showing hhmmss and click the Tick.png in the Fin column. The system uses the current time at the event as the finish time. This only works with the Tick.png: the SAVE button ignores any box still showing hhmmss.
+
+If you enter a time it is used as usual. If what you enter is not a valid time (for example 0630, which is too short) the boat is not finished and a warning is shown, so correct it and try again.
+
+**Important: set the event's Time Zone.** The current time is worked out from the **Timezone** chosen on the Event (Edit Event page). Make sure it is set to the place where the event is sailed, for example Australia/Sydney. If the Timezone is not set, the system cannot know the local time and the finish times will be wrong. Check the Timezone when you create each event. Daylight saving is applied automatically for the chosen Timezone.
+
+**Races that cross a daylight saving change.** Do not use the click-to-finish-now method for a race that starts before and finishes after the clocks change (for example an overnight race on the night daylight saving starts or ends). The system does not adjust the elapsed time for the change of clocks, so elapsed and corrected times for boats that finish after the change will be an hour out. For these races, take care to enter the finish times by hand, allowing for the clock change, and check the results with the Race Committee.
+
 ### Correcting Mistakes and Re-Ordering Finishers
 
 Quite often the Race Committee will correct their results or you may have made an error in entering them. To correct the entry there are three methods:
