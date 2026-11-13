@@ -37,11 +37,12 @@ The boat's handicap number stays the same for the whole event. Changing a handic
 | **TCF multiplier** | TCF, e.g. 1.025 | CT = ET × TCF | IRC and other time-on-time ratings |
 | **HKPN** | HK Performance Number, e.g. 1000 | CT = ET × 1000 / HKPN | Hong Kong dinghy and keelboat fleets |
 | **Portsmouth Yardstick (PYC)** | PN, e.g. 1000 | CT = ET × 1000 / PN | Dinghy club racing |
+| **YTC Rating (YTC)** | Rating, e.g. 1000 | CT = ET × 1000 / rating | Calculated exactly as PYC |
 | **Royal Varuna PY (RVPY)** | PN | CT = ET × 1000 / PN, to 0.1 s | As PYC, with times shown to the tenth of a second |
 | **Texel (TR)** | Texel rating | CT = ET × 100 / TR | Texel-rated boats |
 | **Time subtraction** | Minutes (decimals allowed) | CT = ET − (minutes × 60) | Simple time-on-distance allowances |
 
-Higher TCF means a faster boat. For HKPN, PYC, RVPY and TR a higher number means a slower boat, so a boat with a higher number gets a bigger allowance.
+Higher TCF means a faster boat. For HKPN, PYC, YTC, RVPY and TR a higher number means a slower boat, so a boat with a higher number gets a bigger allowance.
 
 ### Dynamic handicaps
 
