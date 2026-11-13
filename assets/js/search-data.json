@@ -1,0 +1,506 @@
+{"0": {
+    "doc": "Class Dashboard",
+    "title": "Overview",
+    "content": "The following picture shows the Class Dashboard. This is the main page used by Scorers and Recorders. All key functions are available from this page. Depending on your access rights, some of these functions may not be available. The class dashboard is divided into 4 areas as follows. ",
+    "url": "/docs/Class_Dashboard.html#overview",
+    
+    "relUrl": "/Class_Dashboard.html#overview"
+  },"1": {
+    "doc": "Class Dashboard",
+    "title": "Event Functions",
+    "content": ". These functions are not class specific but event wide function. Only those functions to which you have been granted access will appear. The functions are: . Create Class . Adds a new class to the event and to the Class Control Panel. See Add New Class For more details. Entry List . Creates an event wide entry list for printing. Finish Sheet . Accesses the event wide finish sheet function. See Entering Results For more details. Results Scratch Pad . Accesses the event wide results scratch sheet pad function. See Entering Results For more details. Protests . Access the Protests Subsystem. See Protests Subsystem For more details. Pages . Access the Pages Subsystem. See Pages Subsystem For more details. Access Control . Access the Access Control Subsystem. This funciton is only available to Administrators. See For Administrators For more details. Sign On/Off . Access the Sign On/Off Subsystem. See Sign On/Off Subsystem For more details. Retirements . Access the Retirements Subsystem. See Retirements Subsystem For more details. End of Day . Access the End of Day processing function. See End Of Day Processing For more details. Protest Times . Allows you to calculate and modify the published protest time limits for ech day. See Protest Time Limits For more details. Entry Sheet Edit . Edits the event wide entry sheet for mass changes. See Entry Management For more details. ",
+    "url": "/docs/Class_Dashboard.html#event-functions",
+    
+    "relUrl": "/Class_Dashboard.html#event-functions"
+  },"2": {
+    "doc": "Class Dashboard",
+    "title": "Class ControlPanel",
+    "content": ". The Class Control Panel is the most used area of the system. Most of the functions Scorers and recorders do start with this panel. each class is listed on a single line. The function that will be used, in typical order of importance are: . Create New Race . To create a new race for a class, click the icon. This will create a new race into which you can Enter Results. The icon will create the “next” race. That is, if the icon is in the Race 10 column, then Race 10 will be created and the icon will move to the Race 11 column. Access a Race and Race Status . To access a race either to update the race properties or enter finish times or finish places, click the icon for the race you need to access. For example, the icon in the Race 8 column will allow you to access race 8 for this class. Note that the icon will change depending on the status of the race. Possible race statuses are: . | Published. results for this race will be available on the internet. | Planning. Results for this race will not be available on the internet. This is typically used when you want to enter results before publishing them. | . See Internet Results . Each Class Name is a hyperlink to the results as displayed on the internet. Clicking this hyperlink will open a new browser tab with the results displayed as they would be seen by an internet user. Class Action Icons . The icons to the left of the class name have the following functions: . | - Class Status. This has the status function as for Events and races. If the status is not the results for this class will not be displayed. | - Edit Class Properties. See Create Class for more details on the class properties. Note that the number of drops and protest time limits are contained in the Class Properties. | - Delete a class and all the entries and results for this class. Be very sure you know what you are doing. This process is not reversible. | - Print a PDF version of the Class Series results. | . Class Information . | Order - This is the order in which the class results will be displayed on the internet. | Entries - Ths is the current number of entries for this class. Note that it is hyperlinked. Clicking the entries value will take to you the editable entry list for this class. | Results type -This is either “Time” or “Place”. Time results are used where the finish time is used for handicapping. Place is used where it is only required to record the order in which the boats finished (in most one design classes for example). | Max races - The maximum number of races to be sailed by this class. | Min races - The minimum number of races to be sailed by this class before any drops are allowed. | . ",
+    "url": "/docs/Class_Dashboard.html#class-controlpanel",
+    
+    "relUrl": "/Class_Dashboard.html#class-controlpanel"
+  },"3": {
+    "doc": "Class Dashboard",
+    "title": "Class Reports",
+    "content": ". ",
+    "url": "/docs/Class_Dashboard.html#class-reports",
+    
+    "relUrl": "/Class_Dashboard.html#class-reports"
+  },"4": {
+    "doc": "Class Dashboard",
+    "title": "Event Reports",
+    "content": ". Quick Links: Recorders Home Page Scorers Home Page . ",
+    "url": "/docs/Class_Dashboard.html#event-reports",
+    
+    "relUrl": "/Class_Dashboard.html#event-reports"
+  },"5": {
+    "doc": "Class Dashboard",
+    "title": "Class Dashboard",
+    "content": " ",
+    "url": "/docs/Class_Dashboard.html",
+    
+    "relUrl": "/Class_Dashboard.html"
+  },"6": {
+    "doc": "Create Race",
+    "title": "Overview",
+    "content": "To add a new race for a class, click the icon. If the icon is in the Race 10 column, this will create a new Race 10 and the icon will move to the Race 11 column. The system wil then take you to the edita race page. A new race 10 will be created. ",
+    "url": "/docs/Create_Race.html#overview",
+    
+    "relUrl": "/Create_Race.html#overview"
+  },"7": {
+    "doc": "Create Race",
+    "title": "Race Properties",
+    "content": "The system will add default values for most fields. Enter the correct values for the race properties and then click Save. The properties are: . | Field | Type | Description | Default Value | . | Status | Select List | Publish status of race. To display results on internet select Published. To enter results without being published to internet select Planning. | Planning | . | Race No | Numeric | Race number | Increments by one from previous race | . | Display Name | Text | This is the title of the race in the results display. This could be \"Race 10\" or \"Cape Panwa Trophy Race\" etc. | Race n | . | Race Date | Date | Actual date of race. | Today | . | Scheduled Start | Time hh:mm | Scheduled start time | 09:00 | . | Actual Start | Time | Time that race was actually started | Scheduled Start | . | Results Status | Select List | Displays the results status as either Provisional or Final | Provisional . | . Quick Links: Recorders Home Scorers Home . ",
+    "url": "/docs/Create_Race.html#race-properties",
+    
+    "relUrl": "/Create_Race.html#race-properties"
+  },"8": {
+    "doc": "Create Race",
+    "title": "Create Race",
+    "content": " ",
+    "url": "/docs/Create_Race.html",
+    
+    "relUrl": "/Create_Race.html"
+  },"9": {
+    "doc": "Entering Results",
+    "title": "Overview",
+    "content": "Entering results (finish times or finish places) is dependent on the Results Type for the Class. If the Results Type is “Place” the system only allows the entry of a place (1, 2, 3, etc). If the Results Type is Time, the system allows the entry of finish times only. In both cases the system has multiple ways in which the results can be entered. The most commonly used method is the One Click Finish. Using this method the minimum number of keystrokes is required. For a Class with a Results Type of Place, only a single click is required. For a Class with a Results Type of Time you are required to enter the actual finish time and then a single click. In the case of Time, the Corrected Time is automatically calculated and the correct finishing order is determined by the system. Points are automatically applied. For all Results Types (Time or Place), special finish results can be applied with a single click. These include DNF, DNS, RAF etc. The steps are the same for both Time and Place classes: . Open the Class Dashboard In the Class Control panel click the Tick.png or Cog.png icon in the column corresponding to the required race number. The system will open the Race page for the required race Enter Finish Times or Places as described below When all results are entered, change the Race Status to Published Click Save &amp; Exit For all Results Types, the Race page is divided into 4 sections . Race Properties - For more details see Create Race Finish Time and Place Functions - these functions are described below. Finish Times and Places - This section shows a table of the boats which have finished, the place and points awarded, and, if the Result Type is Time, the Elapsed Time, TCF and Corrected Time. Boats Not Yet Finished - This is a table of the boats which have not yet finished. ",
+    "url": "/docs/Entering_Results.html#overview",
+    
+    "relUrl": "/Entering_Results.html#overview"
+  },"10": {
+    "doc": "Entering Results",
+    "title": "Entering Finish Places and Times by Race",
+    "content": "Entering Finish Positions using One Click (Boat by boat) Entry . This applies to a Class with a Results Type of PLACE. Using the steps above, access the Race page for the required Class and Race. The picture below shows a sample Finn Class for race 9. The picture shows that 3 boats have finished. AUS26 is in 3rd place. AUS2, AUS5 and AUS22 have not yet finished. If the next boat to finish is AUS22, click the Tick.png in the Fin column. The system will finish AUS22 in 4th place and move him to the Finish Times and Places table. You could use this method to finish the remainder of the class. Correcting Mistakes and Re-Ordering Finishers . Quite often the Race Committee will correct their results or you may have made an error in entering them. There are 3 methods to correct errors. Use Move Up/Down Arrows Reset Race results Use Finish Sheet Edit . Move Up/Down Arrows . These icons allow you to move a boat one place up or down. When you click one of the arrows the boat is moved in the required direction and the adjacent boats are re-ordered and rescored. Entering Finish Times using One Click (Boat by boat) Entry . This applies to a Class with a Results Type of TIME. Using the steps above, access the Race page for the required Class and Race. The picture below shows a sample IRC Class for race 11. The picture shows that no boats have finished. For each finisher, select the Finish Code (FIN = normal finish), enter the finish time by overwriting the hhmmss then click the Tick.png in the Fin column. The system will finish Kata Rocks using the entered time and his TCF, then move him to the Finish Times and Places table. Entering finish times for multiple boats is also easy. For each boat, select the Finish Code, enter the finish time by overwriting the hhmmss then click the SAVE button below. You could use this method to finish the remainder of the class. Finishing a boat at the current time . If a boat has just finished and you want to record the time of the click, leave the box showing hhmmss and click the Tick.png in the Fin column. The system uses the current time at the event as the finish time. This only works with the Tick.png: the SAVE button ignores any box still showing hhmmss. If you enter a time it is used as usual. If what you enter is not a valid time (for example 0630, which is too short) the boat is not finished and a warning is shown, so correct it and try again. Important: set the event’s Time Zone. The current time is worked out from the Timezone chosen on the Event (Edit Event page). Make sure it is set to the place where the event is sailed, for example Australia/Sydney. If the Timezone is not set, the system cannot know the local time and the finish times will be wrong. Check the Timezone when you create each event. Daylight saving is applied automatically for the chosen Timezone. Races that cross a daylight saving change. Do not use the click-to-finish-now method for a race that starts before and finishes after the clocks change (for example an overnight race on the night daylight saving starts or ends). The system does not adjust the elapsed time for the change of clocks, so elapsed and corrected times for boats that finish after the change will be an hour out. For these races, take care to enter the finish times by hand, allowing for the clock change, and check the results with the Race Committee. Correcting Mistakes and Re-Ordering Finishers . Quite often the Race Committee will correct their results or you may have made an error in entering them. To correct the entry there are three methods: . Use to open the RaceResult screen. Edit the finish time and click Save. Use to delete the finish result and re-enter it using the methods above. Use Finish Sheet Edit After changing a finish time, always recalculate the race results using the Reset-race-button.png . DNF, DNS, DNC and OCS . The Race Committee will often score a boat DNF (Did Not Finish), DNS (Did Not Start), DNC (Did Not Compete) or OCS (On Course Side at Start) where the boat has not started or completed the course. To enter these scores quickly, click the required Score to the right of the Tick.png icon. The system will score AUS5 DNF and move him to the Finish Times and Places table. Note that there are many other special scores that could be used. These are available in the Select List to the left of the . Reset Race Results . This function will delete all race results to date and move all boats back to the Not Yet Finished table. Finish Sheet Edit . This function will open a worksheet which allows you to manually adjust any or all of the results. Entering Protest Scores . Following a protest a boat which may have been scored as finished may need to be . | be scored as DSQ (disqualified) . | be scored in a specific place or with specific points | be awarded redress in some form | . It is vital to read the Jury decision carefully and consult with the Jury Secretary if there is any doubt. Scoring a Boat DSQ Scoring a Boat with a specific place or points Awarding a Boat Redress . Finish Times and Places Bulk Entry Using Finish Sheet . Key Concepts This function allows you to enter the finish times or places for multiple boats in multiple classes using a single form. To access this function, click the Finish Sheet button on the Class Dashboard. This function will gather all UNFINISHED boats for the LAST RACE of each class. The unfinished boats are displayed on a single screen. You can FILTER this sheet for particular classes using the Filter Classes button. For classes with result type of TIME you must enter the Finish Time. For classes with result type of PLACE you only need to click the FIN button. The order in which you click the FIN button determines the finish order. You can re-order the finishers using DRAG &amp; DROP. The Finish Sheet To access the Finish Sheet, click the Finish Sheet button on the Class Dashboard. The system will determine the unfinished boats from the last race of each class and display them in a single screen. You can change the sort order by clicking on the table column headers. You can change which classes are displayed by clicking the Filter Classes button. ",
+    "url": "/docs/Entering_Results.html#entering-finish-places-and-times-by-race",
+    
+    "relUrl": "/Entering_Results.html#entering-finish-places-and-times-by-race"
+  },"11": {
+    "doc": "Entering Results",
+    "title": "Entering Results",
+    "content": ". | Overview | Entering Finish Places and Times by Race . | Entering Finish Positions using One Click (Boat by boat) Entry | Entering Finish Times using One Click (Boat by boat) Entry | Finishing a boat at the current time | Correcting Mistakes and Re-Ordering Finishers | DNF, DNS, DNC and OCS | Entering Protest Scores | Finish Times and Places Bulk Entry Using Finish Sheet | . | . ",
+    "url": "/docs/Entering_Results.html",
+    
+    "relUrl": "/Entering_Results.html"
+  },"12": {
+    "doc": "For Judges",
+    "title": "For Judges",
+    "content": " ",
+    "url": "/docs/For_Judges.html",
+    
+    "relUrl": "/For_Judges.html"
+  },"13": {
+    "doc": "For Recorders",
+    "title": "Key Concepts",
+    "content": ". | Accessing the System and Logging in | Navigating the Class Dashboard | Adding a new race | Entering Finish times, Finish Places and Penalty Scores | . ",
+    "url": "/docs/For_Recorders.html#key-concepts",
+    
+    "relUrl": "/For_Recorders.html#key-concepts"
+  },"14": {
+    "doc": "For Recorders",
+    "title": "Checklists",
+    "content": ". | Start of Regatta | Start of Day | Start of Race | End of Race | End of Day | End of Regatta | . ",
+    "url": "/docs/For_Recorders.html#checklists",
+    
+    "relUrl": "/For_Recorders.html#checklists"
+  },"15": {
+    "doc": "For Recorders",
+    "title": "For Recorders",
+    "content": "This page contains information for recorders. A recorder has basic access to the system. Refer toUser Rolesfor more details. ",
+    "url": "/docs/For_Recorders.html",
+    
+    "relUrl": "/For_Recorders.html"
+  },"16": {
+    "doc": "For Scorers",
+    "title": "Key Concepts",
+    "content": ". | Accessing the System and Logging in | Navigating the Class Dashboard | Creating New Classes within a Regatta | Creating a sub class of another class | Add an Entrant to a Class | Adding a new race | Entering Finish times, Finish Places and Penalty Scores | Print Results | Print Sign On/Off Sheet | . ",
+    "url": "/docs/For_Scorers.html#key-concepts",
+    
+    "relUrl": "/For_Scorers.html#key-concepts"
+  },"17": {
+    "doc": "For Scorers",
+    "title": "Checklists",
+    "content": ". | Start of Regatta | Start of Day | During Racing | End of Day | End of Regatta | . ",
+    "url": "/docs/For_Scorers.html#checklists",
+    
+    "relUrl": "/For_Scorers.html#checklists"
+  },"18": {
+    "doc": "For Scorers",
+    "title": "For Scorers",
+    "content": "Contents . | Key Concepts | Checklists | . This page contains information for Scorers. A Scorer has the same rights and privileges as a Recorder, plus more. For full details on the access rights and privileges seeUser Rolesfor more details. ",
+    "url": "/docs/For_Scorers.html",
+    
+    "relUrl": "/For_Scorers.html"
+  },"19": {
+    "doc": "Loggin in",
+    "title": "Accessing the System and Logging in",
+    "content": "To access the scorers workbench go to http://www.sailingscoreboard.com/workbench/. The following screen will appear. Enter your email address and password and click Login. If the administrator has given you access to more than one regatta, you will be presented with a list of available regattas. if you only have access to a single regatta you will be directed to the Class Dashboard. If you have access to multiple events you will be directed to the Event List. ",
+    "url": "/docs/Logging_in.html#accessing-the-system-and-logging-in",
+    
+    "relUrl": "/Logging_in.html#accessing-the-system-and-logging-in"
+  },"20": {
+    "doc": "Loggin in",
+    "title": "Loggin in",
+    "content": " ",
+    "url": "/docs/Logging_in.html",
+    
+    "relUrl": "/Logging_in.html"
+  },"21": {
+    "doc": "Print Results",
+    "title": "Overview",
+    "content": "To print Series Pointscore or individual Race Results for a class: . | Navigate to the Class Dashboard | Scroll down to the Noticeboard section | To print the PointScore for a particular class, click Pointscore adjacent to the class name. | To print the results for a particular race for a particular class, click the Printer icon in the column corresponding to the race number. | In both cases the system will create a downloadable PDF. Download the PDF and print from your local printer. | . Quick Links:Recorders Home Page Scorers Home Page . ",
+    "url": "/docs/Print_Results.html#overview",
+    
+    "relUrl": "/Print_Results.html#overview"
+  },"22": {
+    "doc": "Print Results",
+    "title": "Print Results",
+    "content": " ",
+    "url": "/docs/Print_Results.html",
+    
+    "relUrl": "/Print_Results.html"
+  },"23": {
+    "doc": "Print Sign On/Off Sheet",
+    "title": "Overview",
+    "content": "To print the Sign On/Off sheet for a class: . | Navigate to the Class Dashboard | Click the number in the Entries column for the class for which you wish to print a Sign On/Off Sheet | Click the Signon Sheet button top right | . Quick Links: Recorders Home Page Scorers Home Page . ",
+    "url": "/docs/Print_Sign_On-_Off_Sheet.html#overview",
+    
+    "relUrl": "/Print_Sign_On-_Off_Sheet.html#overview"
+  },"24": {
+    "doc": "Print Sign On/Off Sheet",
+    "title": "Print Sign On/Off Sheet",
+    "content": " ",
+    "url": "/docs/Print_Sign_On-_Off_Sheet.html",
+    
+    "relUrl": "/Print_Sign_On-_Off_Sheet.html"
+  },"25": {
+    "doc": "REST Interface",
+    "title": "Overview",
+    "content": "SailingScoreboard.com provides a REST interface for those users wishing to develop their own results display systems. REST Interfaces are described here REST API Tutorial . The Sailing Scoreboard REST interface implements the HTTP GET verb and returns results in JSON format. The Sailing Scoreboard REST implementation follows the standard REST hierarchical URL model for access. The generic form is as follows: . **http://www.rest.sailingscoreboard.com/results/[//...]** . The resources and parameters are described below. ",
+    "url": "/docs/Rest_Interface.html#overview",
+    
+    "relUrl": "/Rest_Interface.html#overview"
+  },"26": {
+    "doc": "REST Interface",
+    "title": "Available Resources and Parameters",
+    "content": "EVENTS . Resource Name: EVENTS . Description: Returns one or more events (regattas) managed by Sailing Scoreboard . | Resource URL | Results returned | Example | . | results/events | Returns all events | http://www.rest.sailingscoreboard.com/results/events | . | results/events/id/nnn | Returns the event with event id nnn (numeric event id) | http://www.rest.sailingscoreboard.com/results/events/id/54 | . | results/events/id/aaa | Returns the event with event code aaa (alphanumeric event code) | http://www.rest.sailingscoreboard.com/results/events/id/chncup2013 | . Data Returned . | Field | Details | Example | . | EventId | Internal Event identifier. Numeric | 45 | . CLASSES . Resource Name: CLASSES . Description: Returns a specific class or all classes within a specific event (regatta). | Resource URL | Results returned | Example | . | results/classes | Fails. Must have either Class or Event as minimum parameters | http://www.rest.sailingscoreboard.com/results/classes | . | results/classes/id/nnn | Returns the class with Class Id nnn (numeric event id) | http://www.rest.sailingscoreboard.com/results/classes/id/469 | . | results/classes/event/aaa | Returns the classes in the event with event code aaa. Event code can be either the numeric id or the alpha code. | http://www.rest.sailingscoreboard.com/results/classes/event/chncup2013 | . Data returned . | Result Element | Description | Example | . | ClassId | Internal class identifier (numeric) | 464 | . | className | Class name displayed in results | Beneteau First 40.7 Class | . | classLogo | Class logo file name | icf-f.png | . | classCourse | Course area (string) | A | . | classOrder | Display order in results | 1 | . | classStatus | Status of class (0=Pending, 1=Published, 2=Archived) | 1 | . | classResultType | Type of results. 0=Place, 1=Time Corrected | 0 | . | MaxRaces | Maximum races in the series | 8 | . | MinRaces | Minimum Races needed to constitute a series | 1 | . | PreDropRaces | String representing the discard sequence as n:m = After n races discard m worst scores | 4:1 | . | CompletedRaces | Number of races completed to date | 3 | . | subClassOf | Internal identifier of parent class if this is a subclass | 0 | . ENTRIES . Resource Name: ENTRIES . Description: Returns a specific entry or all entries within a specific event or class. | Resource URL | Results returned | Example | . | results/entries | Fails. Must have either Class or Event as minimum parameters | http://www.rest.sailingscoreboard.com/results/entries | . | results/entries/id/nnn | Returns the entry with Entry Id nnn (numeric Entry Id) | http://www.rest.sailingscoreboard.com/results/entries/id/5329 | . | results/entries/class/nnn | Returns the entries for Class Id nnn (numeric Class Id) | http://www.rest.sailingscoreboard.com/results/entries/class/469 | . | results/entries/event/aaa | Returns the entries for event code aaa. Event code can be either the numeric id or the alpha code. | http://www.rest.sailingscoreboard.com/results/entries/event/chncup2013 | . Data returned: . | Result Element | Description | Example | . | EventId | Internal Id of the event | 54 | . | ClassId | Internal Id of the class | 464 | . | ClassName | Display name of the class | Beneteau First 40.7 Class | . | ClassEntryId | Internal id of the entry | 5245 | . | Boat | Display Name of the boat or team | Vicsail | . | Owner | Display Name of the owner | Robin Hawthorn | . | tcf | Time Correction Factor (float) if the class is a “time” results class otherwise 0 | 1.141 | . | BowNo | Bow number of the boat | 29 | . | Country | Country code of the boat as per RRS Appendix G | AUS | . | SailNo | Sail number of the boat | CHN55029 | . | Club | Club of the boat | RPAYC | . POINTSCORES . Resource Name: POINTSCORES . Description: Returns the pointscore for a specific class. | Resource URL | Results returned | Example | . | results/pointscores | Fails. Must have either Class or Event as minimum parameters | http://www.rest.sailingscoreboard.com/results/pointscores | . | results/pointscores/class/nnn | Returns the entries for Class Id nnn (numeric Class Id) | http://www.rest.sailingscoreboard.com/results/pointscores/class/469 | . Details of returned data: . | Result Element | Description | Example | . | BowNo | Bow number of entry | 574 | . | Boat | Name of boat or team | Hail Beaver | . | Owner | Name of boat owner or skipper | Joseph Wong | . | SailNo | Sail number | HKG2170 | . | Country | Country as a 3 character code as per RRS Appendix G | HKG | . | Club | Club name | RHKYC | . | Racecount | Number of races sailed. | 6 | . | RawPoints | Array of points awarded in each race sailed to date. Array elements are {Race Number : Points Awarded} | {1:5,2:10,3:6,4:10,5:10,6:10} | . | Places | Array of places awarded in each race sailed to date. Array elements are {Race Number : Place Awarded}. Note that place can be a character string as per RRS Appendix A | {1:5,2:DNF,3:6,4:DNS,5:DNS,6:DNS} | . | RawTotalPoints | Sum of all points awarded including discards | 51 | . | TotalPoints | Sum of points less discarded scores | 41 | . | Place | Place in pointscore (numeric) | 1 | . | DNC | Used for circuit events. If True, this competitor has not competed in this event (true/false). | false | . RACES . Resource Name: RACES . Description: Returns a specific race or all races within a specific event or class. | Resource URL | Results returned | Example | . | results/races | Fails. Must have either Class or Event as minimum parameters | http://www.rest.sailingscoreboard.com/results/races | . | results/races/id/nnn | Returns the race with Race Id nnn (numeric) | http://www.rest.sailingscoreboard.com/results/races/id/5329 | . | results/races/class/nnn | Returns the races for Class Id nnn (numeric) | http://www.rest.sailingscoreboard.com/results/races/class/469 | . | results/races/event/aaa | Returns the races for event code aaa. Event code can be either the numeric id or the alpha code. | http://www.rest.sailingscoreboard.com/results/races/event/chncup2013 | . Data returned: . | Result Element | Description | Example | . | EventId | Internal id of event | 54 | . | ClassId | Internal id of class | 464 | . | RaceId | Internal id of race | 2574 | . | RaceNo | Race number | 1 | . | RaceName | Display Name of Race | Race 1 | . | RaceDate | Race date as yyyy-mm-dd | 2013-10-25 | . | ScheduledStart | Scheduled race start as hh:mm:ss | 10:05:00 | . | ActualStart | Actual start of race as hh:mm:ss | 10:05:00 | . | LastFinish | Time of last finisher as hh:mm:ss if available otherwise null | 12:44:22 | . | Notification | Notification status. 0=Provisional, 1=Final | 1 | . | Status | Race publication status. 0=Pending, 1=Published, 2=Archived | 1 | . RACERESULTS . Resource Name: RACERESULTS . Description: Returns a specific raceresult or all raceresults within a specific race or class. | Resource URL | Results returned | Example | . | results/raceresults | Fails. Must have either Class or Event as minimum parameters | http://www.rest.sailingscoreboard.com/results/raceresults | . | results/raceresults/id/nnn | Returns the raceresult with RaceResult Id nnn (numeric) | http://www.rest.sailingscoreboard.com/results/raceresults/id/5285 | . | results/raceresults/class/nnn | Returns the raceresults for Class Id nnn (numeric) | http://www.rest.sailingscoreboard.com/results/raceresults/class/469 | . | results/raceresults/race/nnn | Returns the races for Race ID nnn. | http://www.rest.sailingscoreboard.com/results/raceresults/race/2595 | . Data returned . | Result Element | Description | Example | . | RaceResultId | Internal id of this race result record | 28658 | . | RaceId | Internal id of race | 2595 | . | RaceDate | Date of race (yyyy-mm-dd) | 2013-10-26 | . | FinishCode | 3 character code of finish status. Refer to FinishCode list for details. | FIN | . | FinishTime | Actual Finish time as “hh”mm:ss” | 12:44:16 | . | ElapsedTime | Elapsed time as (Finish Time minus Race Start Time) in seconds. Null for “place only” classes. | 9256 | . | CorrectedTime | Corrected time = Elapsed Time * TCF in seconds. Null for “place only” classes. | 10561 | . | PenaltyPlace | Place awarded by Jury. Finish Code should be = PEN or RDG | 0 | . | PenaltyPoints | Points awarded by Jury. Finish Code should be = PEN or RDG | 0 | . | Status | Publication status of this race result. 0=Pending, 1=Published | 1 | . | ClassId | Internal Id of class (numeric) | 465 | . | ClassEntryId | Internal id of this boats entry record in this class. | 5285 | . | BoatDisplayName | Name of boat or team to be displayed on results | Alpha Pirates | . | BowNo | Bow number of this boat | 2 | . | OwnerDisplayName | Name of owner or skipper to be displayed on results | Song Xiaqun | . | SailNo | Sail number of this boat (string) | TPE5552 | . | Club | Club of this boat. May be null. | RHKYC | . | Country | Country of this boat. Three character string as per RRS Appendix G | CHN | . | tcf | If the class is a “time” results type, then this contains the time correction factor (float) | 1.141 | . | Points | Points scored in this race | 1 | . | Place | Place awarded in this race. May be numeric (1,2,3…) or 3 character code as per RRS Appendix A | 1 | . ",
+    "url": "/docs/Rest_Interface.html#available-resources-and-parameters",
+    
+    "relUrl": "/Rest_Interface.html#available-resources-and-parameters"
+  },"27": {
+    "doc": "REST Interface",
+    "title": "REST Interface",
+    "content": " ",
+    "url": "/docs/Rest_Interface.html",
+    
+    "relUrl": "/Rest_Interface.html"
+  },"28": {
+    "doc": "SCL Display and Board",
+    "title": "SCL Display and Board",
+    "content": "Two public pages show a Sailing Champions League class live. They need no login and update by themselves. Contents . | SCL Display and Board . | The Display (big screen) . | Options | . | The Board (phones) | What is shown | . | . ",
+    "url": "/docs/SCL_Display_and_Board.html",
+    
+    "relUrl": "/SCL_Display_and_Board.html"
+  },"29": {
+    "doc": "SCL Display and Board",
+    "title": "The Display (big screen)",
+    "content": "Open https://sailingscoreboard.com/scl/display/&lt;class number&gt; on the computer that drives the screen, and press the Full screen button (it hides itself, and the mouse pointer, after three seconds without movement). The class number is shown in the address of the class’s Board page, and the workbench Dashboard has a Display button for each class. It is designed for a 1920 by 1080 screen and scales to fit any screen. During qualifying the left side is the leaderboard: rank, team logo, code and name, the number of races raced and the total points. While the qualifying series is running the list is ordered by races raced (most first) and then by total, because a team that has raced less always has fewer points; no rank is shown yet. Once the series is completed the list is in rank order with the rank. Individual race scores are not shown on the Display (a qualifying series can run to 40 or 50 races); they are on the Board. A long leaderboard changes page every ten seconds. The right side shows the last race in finishing order, a line for a race that is being scored now, and the next races with each boat’s team. During finals the leaderboard is replaced by the finals: each finalist with its place, its wins (a diamond marks the leader’s head start, filled circles are wins, empty circles are wins still needed) and its points, the final races so far, the next final race, and, once decided, a winner banner. The qualifying ranking is shown small beneath. When a new result arrives the rows that changed are highlighted for five seconds. The small Updated time shows when the screen last heard from the server; if it cannot reach the server for a while it says so and keeps showing the last results. Options . Add them to the address after a question mark, for example /scl/display/90001?next=5&amp;theme=light. | Option | Effect | . | next=5 | How many next races to show (1 to 8). | . | theme=light | A light background instead of the dark one. | . | rotate=0 | Do not change pages; stay on the first page of the leaderboard. | . ",
+    "url": "/docs/SCL_Display_and_Board.html#the-display-big-screen",
+    
+    "relUrl": "/SCL_Display_and_Board.html#the-display-big-screen"
+  },"30": {
+    "doc": "SCL Display and Board",
+    "title": "The Board (phones)",
+    "content": "Open https://sailingscoreboard.com/scl/board/ for the list of published events and their classes, or go straight to a class: https://sailingscoreboard.com/scl/board/&lt;class number&gt;. It is made for phones and works on any screen. | Standings: the leaderboard. Tap a team to see its race-by-race scores and its sailors (names and roles only). | Races: the series reads upwards, so the numbers run 1, 2, 3… up the page: at the top the next races (up to six, marked Pending) with each boat’s team, the furthest first, then the race being scored now, then every race sailed (marked Completed), newest first, with the finishing order. Tap a race to open or close it. | Finals: appears once the qualifying series is completed. | . Until the qualifying series is completed the standings are labelled Provisional: every race counts, so teams that have sailed more races have more points. Afterwards each team counts the same number of races, and the scores of the races left out are shown faded on the Board (the Display shows only the totals). Every page has its own address, so you can send a link to a class, a tab or a team. The Board checks for new results every ten seconds while the page is open. ",
+    "url": "/docs/SCL_Display_and_Board.html#the-board-phones",
+    
+    "relUrl": "/SCL_Display_and_Board.html#the-board-phones"
+  },"31": {
+    "doc": "SCL Display and Board",
+    "title": "What is shown",
+    "content": "Only events that are Published and classes with the public board switched on appear. Contact details are never shown. ",
+    "url": "/docs/SCL_Display_and_Board.html#what-is-shown",
+    
+    "relUrl": "/SCL_Display_and_Board.html#what-is-shown"
+  },"32": {
+    "doc": "SCL Scorer app",
+    "title": "The SCL Scorer app",
+    "content": "The Scorer app is how race officials record Sailing Champions League results on a tablet. It works without an internet connection: results are kept on the tablet and sent when the connection returns. Contents . | The SCL Scorer app . | Install it | Sign in | The screen | Scoring a race | The sync light | Two devices on the same race | The menu | Tips | . | . ",
+    "url": "/docs/SCL_Scorer.html#the-scl-scorer-app",
+    
+    "relUrl": "/SCL_Scorer.html#the-scl-scorer-app"
+  },"33": {
+    "doc": "SCL Scorer app",
+    "title": "Install it",
+    "content": "Use a tablet in landscape (iPad, Android tablet, or a touch laptop with Chrome, Edge or Safari). Open https://sailingscoreboard.com/scl/scorepad/, sign in once, then: . | iPad (Safari): Share, then Add to Home Screen. | Android (Chrome): menu, then Install app or Add to Home screen. | . Install it. An installed app keeps its saved data safely and reopens without a connection. (On an iPad that has not installed it, Safari may clear the data after a week.) . ",
+    "url": "/docs/SCL_Scorer.html#install-it",
+    
+    "relUrl": "/SCL_Scorer.html#install-it"
+  },"34": {
+    "doc": "SCL Scorer app",
+    "title": "Sign in",
+    "content": "Either type your username (or email) and password, or use Open Scorer in the workbench: it signs you in without a password. If you can score more than one class you choose a class; the app remembers your choice. ",
+    "url": "/docs/SCL_Scorer.html#sign-in",
+    
+    "relUrl": "/SCL_Scorer.html#sign-in"
+  },"35": {
+    "doc": "SCL Scorer app",
+    "title": "The screen",
+    "content": ". | Top bar: the event and class, the sync light, and the Menu. | Left: the results table. One row per race, with the race number, then the boats in the order they finished. Each boat is its number on its colour. A code (such as OCS) shows beneath the number. Abandoned races are struck through, partly scored races say partial, and a race waiting to be sent says pending. | Right: the keypad and the buttons for the current race (the highlighted row). | . Tap a race number to make it the current race. When you open the app the current race is the first one that is not complete. ",
+    "url": "/docs/SCL_Scorer.html#the-screen",
+    
+    "relUrl": "/SCL_Scorer.html#the-screen"
+  },"36": {
+    "doc": "SCL Scorer app",
+    "title": "Scoring a race",
+    "content": ". | Tap the boats in the order they finish. Each boat you tap is added to the race and its key is dimmed with a tick, so it cannot be tapped twice. Keys for boats that are not racing in this race are disabled. | A boat that did not finish gets a code: press and hold its number (or right-click), or press Code… and then tap the number. Choose DNF, DNS, DSQ, OCS, RET or DNC. The boat takes the next place in the order, but a coded boat does not use up a finishing place. | Made a mistake? C removes the last boat. Press and hold C, or use Reset Race, to clear the whole race. | DNF Remainder gives a DNF to every boat that has no entry yet. | Save Race. If some boats have no result the app asks: DNF the rest, Save as partial, or Cancel. After saving it moves to the next race that is not complete. | . Points are worked out by the system, not by the app: a finisher scores its place, and a boat with a code scores one more than the number of teams in the race. To change a saved race, tap its number, change the entries and press Save Race (the app asks you to confirm when you change a complete race). If an administrator has given a redress or penalty in that race, a banner says so and it stays applied. ",
+    "url": "/docs/SCL_Scorer.html#scoring-a-race",
+    
+    "relUrl": "/SCL_Scorer.html#scoring-a-race"
+  },"37": {
+    "doc": "SCL Scorer app",
+    "title": "The sync light",
+    "content": "| Light | Meaning | . | Synced (green) | Everything is on the server and the tablet has checked recently. | . | N pending (amber) | N races are saved on the tablet and not yet sent. They are sent automatically. | . | Offline (amber) | No connection. Keep scoring; results are queued and sent in order when the connection returns. | . | Error: tap for details (red) | Something needs attention, for example you have been signed out. Your queued races are kept. Tap for details. | . The app checks the server every 30 seconds and when you return to it. ",
+    "url": "/docs/SCL_Scorer.html#the-sync-light",
+    
+    "relUrl": "/SCL_Scorer.html#the-sync-light"
+  },"38": {
+    "doc": "SCL Scorer app",
+    "title": "Two devices on the same race",
+    "content": "If someone else saved a race after you opened it, the app shows both versions side by side when you save: Yours and Server’s. Choose Keep the server’s to drop yours, or Overwrite with mine to replace theirs. ",
+    "url": "/docs/SCL_Scorer.html#two-devices-on-the-same-race",
+    
+    "relUrl": "/SCL_Scorer.html#two-devices-on-the-same-race"
+  },"39": {
+    "doc": "SCL Scorer app",
+    "title": "The menu",
+    "content": ". | Sync now: send anything waiting, then read the latest results. | Reload from server: replace what is on the tablet with the server’s copy. It refuses while races are waiting to be sent unless you confirm again. | Show team codes: show each team’s code under the boat numbers. | Abandon this race / Restore this race: abandoning keeps the results but does not score the race. This needs a connection. | Change class, Log out. Races waiting to be sent stay on the tablet when you log out and are sent when you sign in again as the same person. | . ",
+    "url": "/docs/SCL_Scorer.html#the-menu",
+    
+    "relUrl": "/SCL_Scorer.html#the-menu"
+  },"40": {
+    "doc": "SCL Scorer app",
+    "title": "Tips",
+    "content": ". | Keep the tablet charged and on the same screen while scoring; it is built to be used with wet hands, so the keys are large. | Before the first race, open the app once with a connection so the class data is on the tablet. | If you are unsure whether something has reached the server, look at the sync light, or open the Board on a phone. | . ",
+    "url": "/docs/SCL_Scorer.html#tips",
+    
+    "relUrl": "/SCL_Scorer.html#tips"
+  },"41": {
+    "doc": "SCL Scorer app",
+    "title": "SCL Scorer app",
+    "content": " ",
+    "url": "/docs/SCL_Scorer.html",
+    
+    "relUrl": "/SCL_Scorer.html"
+  },"42": {
+    "doc": "SCL for Administrators",
+    "title": "Sailing Champions League: running an event",
+    "content": "This page is for the people who set up and run a Sailing Champions League (SCL) event: the event administrator and the chief scorer. Race officials who enter results use the SCL Scorer app. The scoring rules are explained under Handicapping and Scoring Systems. Contents . | Sailing Champions League: running an event . | How an SCL event works | Who can do what | Set up an event | The pairing list | During racing | Qualifying Series Completed | Finals | Display and Board | Giving people access | . | . ",
+    "url": "/docs/SCL_for_Admins.html#sailing-champions-league-running-an-event",
+    
+    "relUrl": "/SCL_for_Admins.html#sailing-champions-league-running-an-event"
+  },"43": {
+    "doc": "SCL for Administrators",
+    "title": "How an SCL event works",
+    "content": "Teams of sailors race in short races in identical boats. A pairing list says which team sails which boat in each race. The race officials record only the order in which the boats finish, plus a code (DNF, DNS, DSQ, OCS, RET or DNC) for any boat that did not finish. The system works out places, points and standings. An event has a qualifying series and, if the class uses them, a final series. Everything is managed from the SCL screens of the workbench. ",
+    "url": "/docs/SCL_for_Admins.html#how-an-scl-event-works",
+    
+    "relUrl": "/SCL_for_Admins.html#how-an-scl-event-works"
+  },"44": {
+    "doc": "SCL for Administrators",
+    "title": "Who can do what",
+    "content": "| Role | What they can do | . | SCL Admin | Everything on this page: boats, classes, teams, pairings, adjustments, finals, access. Can also score. | . | SCL Scorer | Enter results in the Scorer app for the classes they have been given. Cannot open the admin screens. | . | Site administrator | Everything, once given access to the event and its classes. | . A person needs two things: to be in the right group, and to be given access to the event and to each class (Access screen). The person who creates an event or class, the event’s chief scorer and the site administrator are given access automatically. ",
+    "url": "/docs/SCL_for_Admins.html#who-can-do-what",
+    
+    "relUrl": "/SCL_for_Admins.html#who-can-do-what"
+  },"45": {
+    "doc": "SCL for Administrators",
+    "title": "Set up an event",
+    "content": ". | Create the event. In the workbench choose Create Event, set the event type to SCL, and save. Open the event: you land on the SCL Dashboard. | Boats. Enter the boats supplied for the event: number (1 to 8, also the sail number), a colour name, the colour itself and an optional sponsor. These colours appear on the Scorer, the Display and the Board. A class that races six boats needs boats 1 to 6; a class that races eight needs 1 to 8. | Classes. Create a class (for example Open). Choose six or eight boats per race, whether the class has finals, how many finalists (4 is usual), how many wins are needed (2), the leader’s head start (1) and whether the class appears on the public Board. You can add a view for a division (Women, Youth, Masters or Mixed): it ranks only the teams marked with that division in the team register. | Teams. The Team register holds every team and is reused from event to event: a short code (such as RSYS), name, club, divisions, contact details and a logo. You can import and export teams as CSV. Add teams to a class from the class’s Teams page. Each team can have a roster (first name, family name and role) for the event: the Board shows these names to the public; contact details are never shown. | Pairings. On the class’s Pairings page upload the pairing list (below). | . ",
+    "url": "/docs/SCL_for_Admins.html#set-up-an-event",
+    
+    "relUrl": "/SCL_for_Admins.html#set-up-an-event"
+  },"46": {
+    "doc": "SCL for Administrators",
+    "title": "The pairing list",
+    "content": "A CSV file with a header and one row per race, a team code in each boat column and a blank for an unused boat: . Race,Boat1,Boat2,Boat3,Boat4,Boat5,Boat6 1,RSYS,CYCA,RPYC,RQYS,RYCV,RPAYC 2,SYC,NCYC,GLYC,LMYC,MHYC,RMYS 3,RFBYC,RSAYS,RYCT,CYCSA,,CYCA . Qualifying races are numbered 1, 2, 3 …; final races F1, F2 … The upload is in two steps: the system checks the file and shows every problem with its line number (nothing is saved if there is any), then shows the balance report (races per team, how often each team sails each boat, who meets whom, back-to-back races) so you can judge the draw. Only then do you apply it. Races that already have results are left alone unless you tick both confirmation boxes. You can also swap two boats in a race, replace a team on a boat, and export the list again. Changing the pairing of a race that already has results clears those results, and the system asks you to confirm first. ",
+    "url": "/docs/SCL_for_Admins.html#the-pairing-list",
+    
+    "relUrl": "/SCL_for_Admins.html#the-pairing-list"
+  },"47": {
+    "doc": "SCL for Administrators",
+    "title": "During racing",
+    "content": "Race officials score in the Scorer app. From the workbench you can: . | Open Scorer (Dashboard or Races page) to sign in to the Scorer app without typing a password. | Look at any race: who was entered, in what order, and the history of changes. | Abandon a race, restore it, clear its results, or create a re-sail of an abandoned race (the re-sail of race 12 is 12R, with the same pairing, counted in its place). | Give a team a redress (RDG: you set the points) or penalty (PEN: points added) with a comment. An adjustment stays applied if the scorer saves the race again, and the standings update straight away. | Watch the Scoreboard on the Classes screen, or open the full Standings (with a PDF). | . The Dashboard shows, for each class, how many races are complete, the last race saved and by whom, and warnings (a race partly scored, a tie that blocks the finals, too few teams for the boats). ",
+    "url": "/docs/SCL_for_Admins.html#during-racing",
+    
+    "relUrl": "/SCL_for_Admins.html#during-racing"
+  },"48": {
+    "doc": "SCL for Administrators",
+    "title": "Qualifying Series Completed",
+    "content": "While the qualifying series is running, every race a team has sailed counts and nothing is dropped. Teams may be on different numbers of races, so the table is provisional. When the qualifying races are finished, use Qualifying Series Completed (Classes screen or the class’s Finals page). This: . | Normalises the table: each team counts only as many races as the team that sailed the fewest, and later races are shown in brackets. | Fixes the ranking: the top teams become the finalists and the leader starts the finals with the head start. | . The page shows the normalised table next to each team’s total for all races, so you can check before you confirm. It will not complete while a race is only partly scored. If two teams are level across the last finalist place, or for the lead, you must put them in order yourself before it will complete. You can reopen the series as long as no final race has been scored. ",
+    "url": "/docs/SCL_for_Admins.html#qualifying-series-completed",
+    
+    "relUrl": "/SCL_for_Admins.html#qualifying-series-completed"
+  },"49": {
+    "doc": "SCL for Administrators",
+    "title": "Finals",
+    "content": "After the series is completed, upload the finals pairing list (final races F1, F2 …): every finalist must be in every final race. The finals end as soon as one team has won the required number of final races (the leader’s head start counts as a win). Finalists are ranked by the sum of their points in the final races, with no drops and no tie-breaks; the winner is first. No further final races can be scored once there is a winner. ",
+    "url": "/docs/SCL_for_Admins.html#finals",
+    
+    "relUrl": "/SCL_for_Admins.html#finals"
+  },"50": {
+    "doc": "SCL for Administrators",
+    "title": "Display and Board",
+    "content": ". | Display for a big screen: https://sailingscoreboard.com/scl/display/&lt;class number&gt;. See SCL Display and Board. | Board for phones: https://sailingscoreboard.com/scl/board/. | . Both show only events that are Published and classes with the public board switched on, and need no login. The Dashboard has a button for each. ",
+    "url": "/docs/SCL_for_Admins.html#display-and-board",
+    
+    "relUrl": "/SCL_for_Admins.html#display-and-board"
+  },"51": {
+    "doc": "SCL for Administrators",
+    "title": "Giving people access",
+    "content": "On the Access screen you can see who has access to each class. Use the existing access screen (button on that page) to add or remove people. Put scorers in the SCL Scorer group and event administrators in SCL Admin. ",
+    "url": "/docs/SCL_for_Admins.html#giving-people-access",
+    
+    "relUrl": "/SCL_for_Admins.html#giving-people-access"
+  },"52": {
+    "doc": "SCL for Administrators",
+    "title": "SCL for Administrators",
+    "content": " ",
+    "url": "/docs/SCL_for_Admins.html",
+    
+    "relUrl": "/SCL_for_Admins.html"
+  },"53": {
+    "doc": "Scorer Checklists",
+    "title": "Start of Regatta",
+    "content": "Before the Regatta . | Get all details of the regatta including NoR and SIs if available | Create a new eventand set status as Planning | Identify classes, scoring systems, number of drops, whether results are Time (and TCF based) or Place only | . On Site Regatta Equipment Checklist . Used for on site scorers . | Dedicated room or quiet area away from public access | Internet access portable hotspot | LAN hub and cables | Power Board with extension lead | Phone, iPad chargers | Phone headset | Computer Headset | Big screen | Small printer | Spare toner | 2 reams of paper | USB Cable | Assortment of pens, highlighters, pencils, erasers | A4 notepad | 10-20 A4 Folders pre marked: | Completed Finish Sheets | Scoring Correction Requests | Jury Decisions | Latest Results | . ",
+    "url": "/docs/Scorer_Checklists.html#start-of-regatta",
+    
+    "relUrl": "/Scorer_Checklists.html#start-of-regatta"
+  },"54": {
+    "doc": "Scorer Checklists",
+    "title": "Start of Day",
+    "content": ". | Check that all is done from previous day | Check that End Of Day Processing has been done for previous day | All race results are Final | All drops have been calculated correctly | Jury/Protest penalties have been applied | Scoring Errors have been processed | Remove yesterday’s Protest Times Sheet from Notice Board | Upload to ISAF if applicable | Check sufficient paper, toner and other supplies | Check internet connection | Check today’s schedule for which classes are scheduled to race | Print copies of current entry lists | Start of Day briefing with On Water Race Management Team | Review and discuss any issues from yesterday | Make sure on water recorders/scorers have Finish Sheets | Make a list of which races are scheduled for which classes | Identify classes which will use a drops from today | Create new races for today | Set status as Planning | Set Scheduled Start Times from daily program | Might need to estimate start time for multiple race classes | Print Sign On/Off Sheet and set up Sign On/Off area for competitors | Print Protest Times sheet | Print Scoring Error Correction Requests | . ",
+    "url": "/docs/Scorer_Checklists.html#start-of-day",
+    
+    "relUrl": "/Scorer_Checklists.html#start-of-day"
+  },"55": {
+    "doc": "Scorer Checklists",
+    "title": "During Racing",
+    "content": ". | Use Daily Schedule as a guide | After estimated Scheduled Start Time call Race Management to verify start times. Allow about 10 mins after last scheduled start. | Check target finish time with Race Committee and remind them to send results or phone in | Update Actual Start Times for each race | If results are being phoned in see Recording Phoned In Results | Enter finish times or places | Watch for a boat being recorded as OCS and make sure OCS is applied properly | When all competitors have finished | Check to see whether drops should be turned on for this class | Publish Race by changing Race Status to Published | Check internet outputregularly | If all races have completed for a class for the day | Manuallyspot check the PointScoreto make sure results are sensible | Calculate and Print Protest Time Limits | Call On Water Race Management and get finish time of last boat in the class | Add Protest time (usually 90 mins) and update Protest Time Limits on Notice Board | . ",
+    "url": "/docs/Scorer_Checklists.html#during-racing",
+    
+    "relUrl": "/Scorer_Checklists.html#during-racing"
+  },"56": {
+    "doc": "Scorer Checklists",
+    "title": "End of Day",
+    "content": ". | Check that all boats have finished for each class | For each completed class print the PointScoreand post on Noticeboard. Note that special reports may be required for each regatta. | If there are Protests, wait for the Jury to complete each hearing and | Enter Protest Scores | Enter Protest Decisions | Wait for End of Protest Time or when all Protests have been heard (which ever is the later) and Run end of day processing | . ",
+    "url": "/docs/Scorer_Checklists.html#end-of-day",
+    
+    "relUrl": "/Scorer_Checklists.html#end-of-day"
+  },"57": {
+    "doc": "Scorer Checklists",
+    "title": "End of Regatta",
+    "content": " ",
+    "url": "/docs/Scorer_Checklists.html#end-of-regatta",
+    
+    "relUrl": "/Scorer_Checklists.html#end-of-regatta"
+  },"58": {
+    "doc": "Scorer Checklists",
+    "title": "Scorer Checklists",
+    "content": " ",
+    "url": "/docs/Scorer_Checklists.html",
+    
+    "relUrl": "/Scorer_Checklists.html"
+  },"59": {
+    "doc": "Sub Classes",
+    "title": "Overview",
+    "content": "A subclass gives a second set of results for boats that have already raced in another class (the parent class). The boats sail once. The subclass reuses their results. There are two kinds of subclass. Which one you want depends on what the second set of results is for: . |   | Copy subclass | Filter subclass | . | Use it for | A series scored again among a group of boats, often from only some of the parent’s races | A view of the parent’s own series, limited to some boats | . | Examples | A Club Championship (scratch) from a season handicap series. Girls or Masters results with their own points. | The parent’s results for boats from one club or country, with the parent’s points | . | How it’s scored | Its own points, from the boats’ positions among themselves. Its own scoring system and discards. | The parent’s points, discards and scoring system. Nothing is re-scored. | . | Has its own entries and races | Yes | No | . | Set up by | Subclass of field, left with an empty Subclass Where clause | Subclass of and a Subclass Where clause | . Copy subclasses are by far the most common, so they are described first. Filter subclasses are rarely needed. ",
+    "url": "/docs/Sub_Classes.html#overview",
+    
+    "relUrl": "/Sub_Classes.html#overview"
+  },"60": {
+    "doc": "Sub Classes",
+    "title": "Copy subclasses",
+    "content": "How a copy subclass is scored . A copy subclass is a class in its own right. It has its own entries, races, scoring system, discards and publish status. Its boats must also be entered in the parent class. It is scored with its own points, based on relative positions. Suppose there are two boats, A and B. In the parent class A scores 3, 5, 7, 4 and B scores 6, 6, 12, 5. In the subclass (with no other boats) A scores 1, 1, 1, 1 and B scores 2, 2, 2, 2. The subclass’s Results Type decides how the loaded results are scored: . | Parent | Subclass | Result | . | Time | Time | The boats are placed by corrected time, among themselves. | . | Time | Place | The boats are placed by actual finishing order (elapsed time), with no handicap. This gives scratch results from a handicap fleet. | . | Place | Place | The boats keep their relative finishing order. | . Example: a Club Championship from a season pointscore . A club scores an all-season pointscore by corrected time. Some of the season’s races also count towards a Club Championship, which is scored by elapsed time (scratch). | The parent class is the season pointscore. It is a Time class with a handicapping system, and it has a race for every race of the season. | The subclass is the Club Championship. It is a Place class, with its own scoring system and discards. | The subclass has fewer races than the parent. The two are not matched one to one. You create a subclass race for each championship race, and Load Parent Results lets you choose which parent race each one takes its results from. | . The same boat can then appear in both pointscores, with a handicap result in the season series and a scratch result in the championship, from the same race. Setting up a copy subclass . | Create the parent class and add all the entries to it. If you are using Time results, set its Handicapping System as usual. | Create the subclass as a new class. In the Subclass of field, choose the parent class from the drop-down. Leave Subclass Where clause empty. Set the other properties of the subclass: . | Results Type (Time or Place, see above). | Scoring System and Discards. These belong to the subclass and don’t have to match the parent’s. | . The Club Championship class: a Place class that is a subclass of the Club Pointscore, with the Where clause empty. | Open the subclass’s Entries screen. It has an Add from Parent Class button. Click it. A screen lists the entries in the parent class that are not yet in this class. Select the boats you want and click Save. | Create the races in the subclass, one for each race the subclass will score. | . Adding from the parent makes a copy of each entry, linked to the original. The copy is made once. If you later correct a boat’s details in the parent class, correct them in the subclass too. Loading results into a copy subclass . | Enter the results in the parent class first, and publish the parent race. Only published parent races can be loaded. | Open the subclass race (the edit race page) and click Load Parent Results. | In the Select Race dialog, choose the parent race to take the results from, and click Load Results. The dialog lists the parent’s published races and picks the first one on the same date as the subclass race. The race numbers don’t have to match, so a championship’s Race 3 can be taken from the season’s Race 11. | The system copies the results of the boats that are in the subclass and scores them again among themselves. You return to the race page with the results in place. | . Loading Race 3 of the Club Championship from Race 5 of the Club Pointscore. The Load Parent Results button is on the race page, and it opens the Select Race dialog. Things to know when loading: . | Loading replaces. Any results already in the subclass race are deleted and replaced. Loading the same race twice does no harm. | Nothing to load. If the parent race has no results for the subclass’s boats, the subclass race is left as it was. | Finish codes come across. A boat that did not finish (DNF, DNS and so on) scores the subclass’s default points for that code, based on the number of entries in the subclass. | Ties in a scratch subclass. If two boats have the same elapsed time, they are given consecutive places, in no particular order. Check these and adjust by hand if the order matters. | . When the parent results change . A copy subclass holds a copy of the parent’s results. It does not change when the parent does. After you correct a finish time or a code, or after a protest, penalty or redress in the parent race, open the subclass race and load the parent results again. Because loading replaces everything, don’t make manual corrections in a subclass race and then reload. Make the correction in the parent race, and reload. Penalties and redress also come across with the result. A penalty place or penalty points awarded in the parent may not be right for the subclass, so check the loaded results after a protest. If you delete an entry from a subclass, its results in that class are deleted with it. ",
+    "url": "/docs/Sub_Classes.html#copy-subclasses",
+    
+    "relUrl": "/Sub_Classes.html#copy-subclasses"
+  },"61": {
+    "doc": "Sub Classes",
+    "title": "Filter subclasses",
+    "content": "A filter subclass shows part of the parent’s results. Nothing is copied or re-scored. The results pages take the parent class’s pointscore and show only the boats that match a condition. The boats keep the parent’s race points, and the totals use the parent’s scoring system and discards. Use it when you want a list of some of the parent’s boats, in the parent’s order. For example, results for one club or country, or for one age group, without separate points. Setting up a filter subclass . | Create the subclass as a new class. In the Subclass of field, choose the parent class. | In the Subclass Where clause field, enter the condition that picks the boats. See below. | Save the class, then publish it as usual. Check it on the public results page. | . A filter subclass has no entries or races of its own, so there is nothing to add with Add from Parent Class and there is no Load Parent Results button. Boats appear and disappear from it as they are added to and removed from the parent. A filter subclass: the Australian Laser class, with a Where clause that picks the boats whose Country is AUS. Writing the Where clause . The clause is a database condition, applied to the parent’s results. The usual use is to pick boats by the Country field of the entry, which events have also used for a state or region code. For example: . classentry.Country = 'AUS' classentry.Country = 'NSW' . Other entry columns can be used in the same way, such as classentry.Club, classentry.SailNo and classentry.BowNo. Text values go in single quotes. Use AND and OR to combine conditions. The clause is typed as text and goes straight to the database, so a mistake gives an error or an empty results page instead of a warning on the form. Always open the public results for the subclass after you save it. Quick Links: Scorers Home . ",
+    "url": "/docs/Sub_Classes.html#filter-subclasses",
+    
+    "relUrl": "/Sub_Classes.html#filter-subclasses"
+  },"62": {
+    "doc": "Sub Classes",
+    "title": "Sub Classes",
+    "content": " ",
+    "url": "/docs/Sub_Classes.html",
+    
+    "relUrl": "/Sub_Classes.html"
+  },"63": {
+    "doc": "Handicapping and Scoring Systems",
+    "title": "Handicapping and scoring systems",
+    "content": "SailingScoreBoard works out a race result in two steps: . | Handicap (time classes only). Each boat’s elapsed time (ET) is converted to a corrected time (CT) using the class’s handicap system. Boats are ranked by CT, fastest first. | Scoring. The finishing place becomes race points using the class’s scoring system. Race points are added up over the series, discards are applied, and ties are broken. | . You choose both on the class. A class’s result type decides whether step 1 applies: . | Result type | How results are entered | Handicap used? | . | Time | Finish times. Elapsed and corrected times are calculated. | Yes | . | Place | Finishing places typed in directly. | No | . All the scoring systems are low-point: the lowest series total wins. ",
+    "url": "/docs/handicaps-and-scoring.html#handicapping-and-scoring-systems",
+    
+    "relUrl": "/handicaps-and-scoring.html#handicapping-and-scoring-systems"
+  },"64": {
+    "doc": "Handicapping and Scoring Systems",
+    "title": "Handicap systems",
+    "content": "Elapsed time is measured in seconds from the boat’s start (the race start, or the boat’s own start time if one is recorded) to its finish. Multi-day races are supported. Corrected times are rounded to the nearest second, except RVPY, which is rounded to 0.1 s. If two boats have the same corrected time, they share the same place. Each gets the average of the points for the places they occupy. Fixed handicaps . The boat’s handicap number stays the same for the whole event. Changing a handicap on an entry recalculates all of that boat’s races. | System | Handicap number | Corrected time | Typical use | . | Fastest time, no handicap | none | CT = ET | Scratch results from a Time class | . | TCF multiplier | TCF, e.g. 1.025 | CT = ET × TCF | IRC and other time-on-time ratings | . | HKPN | HK Performance Number, e.g. 1000 | CT = ET × 1000 / HKPN | Hong Kong dinghy and keelboat fleets | . | Portsmouth Yardstick (PYC) | PN, e.g. 1000 | CT = ET × 1000 / PN | Dinghy club racing | . | YTC Rating (YTC) | Rating, e.g. 1000 | CT = ET × 1000 / rating | Calculated exactly as PYC | . | Royal Varuna PY (RVPY) | PN | CT = ET × 1000 / PN, to 0.1 s | As PYC, with times shown to the tenth of a second | . | Texel (TR) | Texel rating | CT = ET × 100 / TR | Texel-rated boats | . | Time subtraction | Minutes (decimals allowed) | CT = ET − (minutes × 60) | Simple time-on-distance allowances | . Higher TCF means a faster boat. For HKPN, PYC, YTC, RVPY and TR a higher number means a slower boat, so a boat with a higher number gets a bigger allowance. Dynamic handicaps . The handicap changes as the series goes on. Each race is corrected with the boat’s current handicap. After each race, the race officer runs Adjust Handicaps. That calculates the handicap each boat will use in the next race. Boats that did not finish keep their current handicap. Race 1 uses the entry’s starting handicap, which is saved as the boat’s base TCF. From race 2 on, each race picks up the handicap calculated after the previous race. If you correct a boat’s TCF on the Edit Result screen for a race, that race keeps the value you typed (it is not replaced by the starting or previously calculated handicap). That includes 0 (or a negative number), which is valid for Time Subtraction. Clearing the field goes back to the entry’s TCF, or the calculated one for dynamic handicaps. IRC National Handicapping (ircnhc) . Corrected time is ET × TCF. The adjustment is the original (pre-2015) NHC method: . | Work out the TCF each finisher achieved: the TCF that would have made its elapsed time equal to the fleet’s, scaled so the finishers’ TCFs still add up to the same total. | Move the boat’s TCF part of the way towards the achieved TCF. Race 1 moves it 60% of the way. From race 2, it moves 60% of the way up and 50% of the way down. | Limit the result to within ±10% of the boat’s base TCF. Beyond that limit, the overshoot is reflected back. | . 2015 National Handicapping (nhc2015) . Corrected time is ET × TCF. It follows the 2015 NHC method, which takes more account of unusual performances: . | Work out each finisher’s achieved TCF, then compare it with the old TCF to give a comparison value. | Calculate the mean and standard deviation of the comparison values across the fleet. | A boat inside the normal band moves towards its achieved TCF by a set proportion. A boat outside the band is an extreme performer. Its movement is reduced, and it is left out of the benchmark used for the other boats. | Scale all the new TCFs so their total equals the total before the race. | . The proportions and the number of standard deviations for “extreme” are set per class. The class fields are NHC OP/UP factor and NHC OP/UP count. Both factors default to 0.3 and both counts to 1. World Sailing Empirical (wsemp) . Corrected time is ET × TCF. After a race: . | Take the corrected times of the finishers. Leave out the fastest 20% and the slowest part of the fleet, and average what is left. This gives the standard corrected time (SCT). | For each finisher, the TCF it achieved is SCT / ET. The new TCF is old TCF + PM × (SCT / ET − old TCF). | PM is the adjustment weight. It is max(1 / n, 0.2), where n is the number of races the boat has finished (never more than the race number). So the first race moves the TCF all the way, and the weight settles at 0.2 from the fifth race. The officer can override PM on the adjust form. | . All boats must have finished or been given a code before adjusting. Status: the Adjust Handicaps button runs ircnhc and nhc2015 only. The World Sailing Empirical calculation is in the code (AdjustWSEMP). It is not offered by the standard adjust action (the wsemp case is commented out in Race::AdjustIRCHandicaps), so check it is reachable before promising it to an event. ",
+    "url": "/docs/handicaps-and-scoring.html#handicap-systems",
+    
+    "relUrl": "/handicaps-and-scoring.html#handicap-systems"
+  },"65": {
+    "doc": "Handicapping and Scoring Systems",
+    "title": "Scoring systems",
+    "content": "For every system, a boat that finishes scores its finishing place. Place is by corrected time in a Time class, or the entered place in a Place class. Non-finishers get the system’s default points (see the table). The scoring system is set on the class. | Scoring system | Non-finisher points (DNF, DNS, OCS, DSQ and so on) | Notes | . | Appendix A4 Low (default) | Boats entered in the class + 1 | The standard low-point system | . | Appendix A5.2 (RRS 2025–28) | Boats entered + 1 | Same figures as A4 Low | . | Appendix A5.3 (RRS 2025–28) | DNC: boats entered + 1. Everything else: (boats entered − DNC boats) + 1 | Scores depend on the other results in the race, so they are recalculated whenever a result is saved | . | ACYC A9 | Boats that finished + 2 | The ACYC modified A9 | . | Kiteboard PKC11 | Boats entered + 1 | The winner of a race scores 0.7 points instead of 1. Other places score as normal | . | Appendix B8 | Boats entered + 1 | Race scoring is as A4. The series tie-break is modified (see below) | . | Sailing Champions League (SCL) | Teams paired in that race + 1 | Team racing in supplied boats. Scored by its own rules, set out in Sailing Champions League scoring below | . Time limit expired (TLE). A boat with the TLE code scores finishers + 1, whichever scoring system the class uses. This follows the sailing instructions, not the scoring system. Result codes and adjustments . | Penalty or adjusted scores: PEN, RDG, DPI, FPA and SCP can carry a penalty place or penalty points, which replace the calculated score. A penalty place also pushes the other boats down, so no two boats share it. | Non-discardable: DNE and DGM can never be discarded. | Entrants: only boats still entered in the class count towards “boats entered”. | . Series totals and discards . | Number of discards. Either a fixed number, or a drop string made of races:discards pairs such as 4:1 8:2. With a drop string, the number of discards is the one for the largest race count not above the number of races published so far. Races that are not published, or are abandoned, are not scored. | Total. Race scores are added up. The worst scores are discarded, up to the number allowed, but non-discardable scores always stay in. | Tied totals. The tie is broken as in RRS A8: . | Compare the boats’ scores in order, from best to worst, after discards. The lower score at the first difference wins. | Any non-discardable scores are compared next. | If still tied, the boat that scored better in the last race wins. | . | Appendix B8 tie-break. The comparison also includes the discarded scores. It starts with the best discarded score, then the full list of scores before discards. | Place. Boats with the same total and the same tie-break are shown with the same place. The next place after a tie is the next consecutive number. | All DNC. A boat with DNC in every race is flagged so the results can show it as not competing. | . ",
+    "url": "/docs/handicaps-and-scoring.html#scoring-systems",
+    
+    "relUrl": "/handicaps-and-scoring.html#scoring-systems"
+  },"66": {
+    "doc": "Handicapping and Scoring Systems",
+    "title": "Sailing Champions League scoring",
+    "content": "Sailing Champions League (SCL) is a team event sailed in a small fleet of identical boats. A pairing list says which team sails which boat in each short race. The Race Official records only the order in which the boat numbers finish, and the system turns that into team places. SCL classes use their own scoring rules, which differ from the systems above. They are set up and managed from the SCL screens, not from the ordinary class and race screens, and their results are entered in the SCL Scorer rather than on the finish sheet. The Results website, the REST interface and the printed reports show the SCL qualifying table in the usual layout. Race points. A team scores its finishing place. A boat with a code (DNF, DNS, DSQ, OCS, RET or DNC) does not use up a place. Instead it scores the number of teams paired in that race, plus one. For example, if boats 3, 5 (OCS), 1 and 2 are recorded in that order in a race with four teams, boat 3 is 1st, boat 1 is 2nd, boat 2 is 3rd, and boat 5 scores 5 points. Qualifying series. Only complete races count. Partial and abandoned races never do. A race that is abandoned can be sailed again as a re-sail (for example race 12R), which counts in its place. Teams on different numbers of races. While the qualifying series is running, every race a team has sailed counts and nothing is dropped, so a team that has sailed more races will have more points. When an administrator marks the qualifying series as completed, the table is normalised: each team counts only as many races as the team with the fewest (among teams that have sailed at least one), and a team’s later extra races are left out and shown in brackets. When every team has sailed the same number of races, nothing is left out. Tied totals. Lowest total wins. Ties are broken as in RRS A8, using only the races that count: . | Compare the teams’ scores in order, from best to worst. The lower score at the first difference wins. | If still tied, compare the scores in the last race, then the race before it, and so on. | . Teams that are still equal share the place, and the next place after a tie skips the shared places (for example 1, 1, 3). Redress and penalties. An administrator can give a team stated points for a race (redress, shown as RDG) or add penalty points. Both carry a comment, are marked on the displays, and stay in place if the Scorer later corrects the race. Finals. After qualifying, an administrator marks the qualifying series as completed. The leading teams (four by default) go through to a final series. The qualifying leader starts with a head start of one race win (the default). The winner of each final race gets one win, and the first team to reach the number of wins required (two by default) wins the event. The finalists are ranked by the sum of their points in the final races, with no drops and no tie-breaks, so teams with the same total share a place. When a team wins the required number of final races the finals stop; that team wins the event and the other finalists are ranked by their total points up to that point. Teams that did not reach the finals follow, in qualifying order. If teams are tied across the last finalist place, or for the lead, the administrator must decide the order before the finals can start. No further final races can be scored once a winner is decided. Sub-classes. A sub-class such as Women is ranked from the main class’s results for the teams in it. Boats are not re-placed within the races. ",
+    "url": "/docs/handicaps-and-scoring.html#sailing-champions-league-scoring",
+    
+    "relUrl": "/handicaps-and-scoring.html#sailing-champions-league-scoring"
+  },"67": {
+    "doc": "Handicapping and Scoring Systems",
+    "title": "Handicapping and Scoring Systems",
+    "content": " ",
+    "url": "/docs/handicaps-and-scoring.html",
+    
+    "relUrl": "/handicaps-and-scoring.html"
+  },"68": {
+    "doc": "Home",
+    "title": "Main Page",
+    "content": "- This is the home page for the Sailing Scoreboard documentation. ",
+    "url": "/docs/#main-page",
+    
+    "relUrl": "/#main-page"
+  },"69": {
+    "doc": "Home",
+    "title": "Getting started",
+    "content": "For Recorders . For Scorers . SCL for Administrators (Sailing Champions League) . SCL Scorer app . SCL Display and Board . For Administrators . For Developers . ",
+    "url": "/docs/#getting-started",
+    
+    "relUrl": "/#getting-started"
+  },"70": {
+    "doc": "Home",
+    "title": "Advanced Topics",
+    "content": "Handicapping and Scoring Systems . REST Interface . ",
+    "url": "/docs/#advanced-topics",
+    
+    "relUrl": "/#advanced-topics"
+  },"71": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "/docs/",
+    
+    "relUrl": "/"
+  }
+}
