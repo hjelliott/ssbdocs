@@ -54,6 +54,17 @@ Access the Sign On/Off Subsystem. See [Sign On/Off Subsystem](sign-on-off-subsys
 
 Access the Retirements Subsystem. See [Retirements Subsystem](retirements-subsystem.html "Retirements Subsystem (page does not exist)") For more details.
 
+### Results QR Code
+
+Creates a QR code that takes anyone who scans it to the public results for this event, so you can put it on a notice board, a poster or a slide. The code points to `https://results.sailingscoreboard.com/` followed by the event code. The page shows the code and the address, with these downloads:
+
+  - **A4 poster (PDF)** - ready to print: the event name, "Scan for live results", the QR code and the address.
+  - **PNG (600 px)** - the QR code with the event name above it and the address below it, for slides and web pages.
+  - **PNG (1200 px, for print)** - the same image at a higher resolution, for printing at a larger size.
+  - **SVG** - the QR code on its own, without the name or address. It scales to any size without losing sharpness.
+
+The event must have an Event Code (set on the event's properties) for the code to be created. Test a printed code with a phone before you put it up.
+
 ### End of Day
 
 Access the End of Day processing function. See [End Of Day Processing](end-of-day-processing.html "End Of Day Processing (page does not exist)") For more details.
