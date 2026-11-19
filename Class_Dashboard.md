@@ -20,7 +20,7 @@ These functions are not class specific but event wide function. Only those funct
 
 ### Create Class
 
-Adds a new class to the event and to the Class Control Panel. See [Add New Class](add-new-class.html "Add New Class (page does not exist)") For more details.
+Adds a new class to the event and to the Class Control Panel. See [Create Class](create-class.html "Create Class") For more details.
 
 ### Entry List
 
@@ -36,23 +36,23 @@ Accesses the event wide results scratch sheet pad function. See [Entering Result
 
 ### Protests
 
-Access the Protests Subsystem. See [Protests Subsystem](protests-subsystem.html "Protests Subsystem (page does not exist)") For more details.
+Access the Protests Subsystem. See [Protests Subsystem](protests-subsystem.html "Protests Subsystem") For more details.
 
 ### Pages
 
-Access the Pages Subsystem. See [Pages Subsystem](pages-subsystem.html "Pages Subsystem (page does not exist)") For more details.
+Access the Pages Subsystem. See [Pages Subsystem](pages-subsystem.html "Pages Subsystem") For more details.
 
 ### Access Control
 
-Access the Access Control Subsystem. This funciton is only available to Administrators. See [For Administrators](for-administrators.html "For Administrators (page does not exist)") For more details.
+Access the Access Control Subsystem. This funciton is only available to Administrators. See [For Administrators](for-administrators.html "For Administrators") For more details.
 
 ### Sign On/Off
 
-Access the Sign On/Off Subsystem. See [Sign On/Off Subsystem](sign-on-off-subsystem.html "Sign On/Off Subsystem (page does not exist)") For more details.
+Access the Sign On/Off Subsystem. See [Sign On/Off Subsystem](sign-on-off-subsystem.html "Sign On/Off Subsystem") For more details.
 
 ### Retirements
 
-Access the Retirements Subsystem. See [Retirements Subsystem](retirements-subsystem.html "Retirements Subsystem (page does not exist)") For more details.
+Access the Retirements Subsystem. See [Retirements Subsystem](retirements-subsystem.html "Retirements Subsystem") For more details.
 
 ### Results QR Code
 
@@ -67,15 +67,15 @@ The event must have an Event Code (set on the event's properties) for the code t
 
 ### End of Day
 
-Access the End of Day processing function. See [End Of Day Processing](end-of-day-processing.html "End Of Day Processing (page does not exist)") For more details.
+Access the End of Day processing function. See [End Of Day Processing](end-of-day-processing.html "End Of Day Processing") For more details.
 
 ### Protest Times
 
-Allows you to calculate and modify the published protest time limits for ech day. See [Protest Time Limits](protest-time-limits.html "Protest Time Limits (page does not exist)") For more details.
+Allows you to calculate and modify the published protest time limits for ech day. See [Protest Time Limits](protest-time-limits.html "Protest Time Limits") For more details.
 
 ### Entry Sheet Edit
 
-Edits the event wide entry sheet for mass changes. See [Entry Management](entry-management.html "Entry Management (page does not exist)") For more details.
+Edits the event wide entry sheet for mass changes. See [Entry Management](entry-management.html "Entry Management") For more details.
 
 ## Class ControlPanel
 
@@ -85,7 +85,7 @@ The Class Control Panel is the most used area of the system. Most of the functio
 
 ### Create New Race
 
-To create a new race for a class, click the ![Add.png](images/add.png) icon. This will create a new race into which you can [Enter Results](enter-results.html "Enter Results (page does not exist)"). The ![Add.png](images/add.png) icon will create the "next" race. That is, if the icon is in the Race 10 column, then Race 10 will be created and the icon will move to the Race 11 column.
+To create a new race for a class, click the ![Add.png](images/add.png) icon. This will create a new race into which you can [Enter Results](Entering_Results.html "Entering Results"). The ![Add.png](images/add.png) icon will create the "next" race. That is, if the icon is in the Race 10 column, then Race 10 will be created and the icon will move to the Race 11 column.
 
 ### Access a Race and Race Status
 
@@ -103,7 +103,7 @@ Each Class Name is a hyperlink to the results as displayed on the internet. Clic
 The icons to the left of the class name have the following functions:
 
   - ![Tick.png](images/Tick.png) - Class Status. This has the status function as for Events and races. If the status is not ![Tick.png](images/Tick.png) the results for this class will not be displayed.
-  - ![Pencil.png](images/Pencil.png) - Edit Class Properties. See [Create Class](create-class.html "Create Class (page does not exist)") for more details on the class properties. Note that the number of drops and protest time limits are contained in the Class Properties.
+  - ![Pencil.png](images/Pencil.png) - Edit Class Properties. See [Create Class](create-class.html "Create Class") for more details on the class properties. Note that the number of drops and protest time limits are contained in the Class Properties.
   - ![Cross.png](images/Cross.png) - Delete a class and all the entries and results for this class. Be very sure you know what you are doing. This process is not reversible.
   - ![Print.png](images/print.png) - Print a PDF version of the Class Series results.
 
